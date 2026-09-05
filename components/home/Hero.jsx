@@ -9,14 +9,9 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center section-bg-hero overflow-hidden pt-[68px]">
-
-      {/* ── Subtle warm background shapes ── */}
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none overflow-hidden">
-        {/* Large sage green circle — top right */}
         <div className="absolute -top-32 -right-32 w-[600px] h-[600px] rounded-full bg-[var(--primary-light)] opacity-50" />
-        {/* Peach smear — bottom left */}
         <div className="absolute -bottom-24 -left-24 w-[420px] h-[420px] rounded-full bg-[var(--accent-light)] opacity-40" />
-        {/* Gold dot cluster — mid right */}
         <div className="absolute top-1/2 right-[5%] w-3 h-3 rounded-full bg-[var(--gold)]" />
         <div className="absolute top-[42%] right-[8%] w-1.5 h-1.5 rounded-full bg-[var(--accent)]" />
         <div className="absolute top-[55%] right-[4%] w-2 h-2 rounded-full bg-[var(--primary-light)]" />
@@ -25,25 +20,20 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 w-full py-20 lg:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
 
-          {/* ── Left — copy ── */}
           <div className="order-2 lg:order-1">
-            {/* Eyebrow badge */}
             <div className="inline-flex items-center gap-2 bg-[var(--primary-light)] text-[var(--primary)] text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-7">
               <span className="w-1.5 h-1.5 rounded-full bg-[var(--primary)] inline-block" />
               {hero.badge}
             </div>
 
-            {/* Headline */}
             <h1 className="text-[clamp(2rem,4.5vw,3.25rem)] font-black leading-[1.1] tracking-tight text-[var(--text-primary)] mb-6">
               {hero.title}
             </h1>
 
-            {/* Description */}
             <p className="text-base sm:text-lg text-[var(--text-muted)] leading-relaxed mb-10 max-w-lg">
               {hero.description}
             </p>
 
-            {/* CTA row */}
             <div className="flex flex-wrap gap-4 mb-14">
               {hero.primaryButton && (
                 <Button href={hero.primaryButton.href} size="lg">
@@ -60,33 +50,22 @@ export default function Hero() {
               )}
             </div>
 
-            {/* Stat highlights */}
             {hero.highlights?.length > 0 && (
               <div className="flex flex-wrap gap-8">
                 {hero.highlights.map((h, i) => (
                   <div key={i} className="flex flex-col">
-                    <span className="text-2xl sm:text-3xl font-black text-[var(--primary)] leading-none">
-                      {h.value}
-                    </span>
-                    <span className="text-xs text-[var(--text-muted)] mt-1 font-medium">
-                      {h.label}
-                    </span>
+                    <span className="text-2xl sm:text-3xl font-black text-[var(--primary)] leading-none">{h.value}</span>
+                    <span className="text-xs text-[var(--text-muted)] mt-1 font-medium">{h.label}</span>
                   </div>
                 ))}
               </div>
             )}
           </div>
 
-          {/* ── Right — visual card ── */}
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
             <div className="relative w-full max-w-md lg:max-w-none">
-
-              {/* Main card */}
               <div className="relative bg-[var(--surface)] rounded-3xl border border-[var(--border-light)] shadow-xl overflow-hidden aspect-[4/3] lg:aspect-[4/3.2] flex items-center justify-center">
-                {/* Decorative inner background */}
                 <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-light)] via-[var(--surface)] to-[var(--accent-light)]" />
-
-                {/* Abstract editorial visual — DIGITECH wordmark with grid */}
                 <div className="relative z-10 flex flex-col items-center justify-center gap-6 p-10 text-center">
                   <div className="w-20 h-20 rounded-2xl bg-[var(--primary)] flex items-center justify-center shadow-lg">
                     <span className="text-[var(--text-white)] font-black text-3xl">D</span>
@@ -95,7 +74,6 @@ export default function Hero() {
                     <p className="text-[var(--text-muted)] text-xs uppercase tracking-widest mb-1">Premium Digital Agency</p>
                     <p className="text-[var(--text-primary)] font-black text-2xl tracking-tight">DIGITECH</p>
                   </div>
-                  {/* Tech tag row */}
                   <div className="flex flex-wrap justify-center gap-2">
                     {['React', 'Next.js', 'Flutter', 'Shopify', 'Node.js'].map((t) => (
                       <span key={t} className="px-3 py-1.5 bg-white border border-[var(--border-light)] rounded-full text-[11px] font-semibold text-[var(--text-secondary)] shadow-sm">
@@ -106,7 +84,6 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating badge — projects */}
               <div className="absolute -bottom-5 -left-5 bg-[var(--surface)] border border-[var(--border-light)] rounded-2xl shadow-lg px-5 py-3.5 flex items-center gap-3">
                 <span className="w-9 h-9 rounded-xl bg-[var(--primary-light)] flex items-center justify-center">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
@@ -119,7 +96,6 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating badge — satisfaction */}
               <div className="absolute -top-5 -right-5 bg-[var(--surface)] border border-[var(--border-light)] rounded-2xl shadow-lg px-5 py-3.5 flex items-center gap-3">
                 <span className="w-9 h-9 rounded-xl bg-[var(--gold-light)] flex items-center justify-center">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">

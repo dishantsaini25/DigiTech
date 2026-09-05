@@ -1,90 +1,49 @@
 @import "tailwindcss";
 
-/* ════════════════════════════════════════════════════════════════════
-   DIGITECH — Blue Light Theme
-   ════════════════════════════════════════════════════════════════════
+/*
+  DIGITECH — Design System
+  ========================
+  Two section backgrounds alternate across the page:
+    --bg-a  linear-gradient(120deg, #dee2e7, #ffffff, #4d96db)
+    --bg-b  linear-gradient(135deg, #f7fafd 0%, #eef4fb 100%)
 
-   TWO SECTION GRADIENTS (alternate across the page):
-   ──────────────────────────────────────────────────
-   BG-A (1st, 3rd, 5th … sections):
-     linear-gradient(120deg, #dee2e7, #ffffff, #4d96db)
-
-   BG-B (2nd, 4th, 6th … sections):
-     linear-gradient(135deg, #f7fafd 0%, #eef4fb 100%)
-
-   Each section variable below is set to either BG-A or BG-B.
-   To swap a section → change its value to the other gradient.
-   CTA + Footer remain intentionally dark for contrast.
-   ════════════════════════════════════════════════════════════════════ */
+  To change a section's background, edit its --bg-* token below.
+  To change all buttons, edit .btn-primary at the bottom.
+*/
 
 :root {
-
-  /* ── Gradient Aliases (single source of truth) ─────────────────── */
-  /* NOTE: CSS variables cannot hold gradients for use inside
-     background-color: var(). They work fine in background: var()
-     which is how Tailwind's bg-[var()] works.                       */
   --bg-a: linear-gradient(120deg, #dee2e7, #ffffff, #4d96db);
   --bg-b: linear-gradient(135deg, #f7fafd 0%, #eef4fb 100%);
 
+  --primary:        #00234b;
+  --primary-dark:   #001530;
+  --primary-light:  #daeaf9;
 
-  /* ── Brand / Action Colors ──────────────────────────────────────── */
-  --primary:        #00234b;   /* deep navy — icons, borders, rings          */
-  --primary-dark:   #001530;   /* darker navy — hover states                 */
-  --primary-light:  #daeaf9;   /* pale blue tint — badge backgrounds         */
+  --accent:         #0099fa;
+  --accent-light:   #e0f2fe;
 
-  --accent:         #0099fa;   /* bright sky blue — accent highlights        */
-  --accent-light:   #e0f2fe;   /* very pale blue tint                        */
+  --gold:           #f59e0b;
+  --gold-light:     #fef3c7;
 
-  --gold:           #f59e0b;   /* warm amber — star ratings                  */
-  --gold-light:     #fef3c7;   /* pale yellow tint                           */
-
-
-  /* ── Text ───────────────────────────────────────────────────────── */
-  --text-primary:   #0b1829;   /* near-black blue — headings                 */
-  --text-secondary: #1e3a5f;   /* dark navy-blue — body text                 */
-  --text-muted:     #5a7a99;   /* muted blue-grey — captions, subtitles      */
-  --text-white:     #ffffff;
-
-
-  /* ── Surfaces (used for cards, modals, form fields) ─────────────── */
   --surface:        #ffffff;
-  --surface-soft:   #f0f6fc;   /* very pale blue — card alt bg               */
-  --surface-warm:   #f7fafd;   /* matches BG-B start — form section bg       */
+  --surface-soft:   #f0f6fc;
+  --surface-warm:   #f7fafd;
 
-  --background:     #f7fafd;   /* overall page base                          */
+  --background:     #f7fafd;
   --foreground:     #0b1829;
 
+  --text-primary:   #0b1829;
+  --text-secondary: #1e3a5f;
+  --text-muted:     #5a7a99;
+  --text-white:     #ffffff;
 
-  /* ── Borders ────────────────────────────────────────────────────── */
-  --border:         #b8d0e8;   /* medium blue border                         */
-  --border-light:   #daeaf7;   /* subtle blue border — card outlines         */
+  --border:         #b8d0e8;
+  --border-light:   #daeaf7;
 
-
-  /* ── Cards ──────────────────────────────────────────────────────── */
   --bg-card:        #ffffff;
-  --bg-card-alt:    #eef4fb;   /* tinted card — slightly deeper blue-white   */
+  --bg-card-alt:    #eef4fb;
 
-
-  /* ══════════════════════════════════════════════════════════════════
-     SECTION BACKGROUND TOKENS
-     ══════════════════════════════════════════════════════════════════
-     Sections alternate: BG-A → BG-B → BG-A → BG-B …
-     Change var(--bg-a) ↔ var(--bg-b) to swap any section.
-     ────────────────────────────────────────────────────────────────
-     #  Section         Gradient
-     1  Hero            BG-A  (120deg: grey→white→blue)
-     2  Dev Services    BG-B  (135deg: pale→soft blue)
-     3  Technologies    BG-A
-     4  Clients         BG-B
-     5  Industries      BG-A
-     6  Testimonials    BG-B
-     7  FAQ             BG-A
-     8  Mobility        BG-B
-     9  Success Nums    BG-A
-    10  CTA             DARK (intentional — strong closing CTA)
-    --  Footer          DARK (intentional — bottom anchor)
-     ══════════════════════════════════════════════════════════════════ */
-
+  /* Section backgrounds — edit these to retheme individual sections */
   --bg-hero:           var(--bg-a);
   --bg-services:       var(--bg-b);
   --bg-technologies:   var(--bg-a);
@@ -94,16 +53,12 @@
   --bg-faq:            var(--bg-a);
   --bg-mobility:       var(--bg-b);
   --bg-numbers:        var(--bg-a);
-  --bg-cta:            #00234b;   /* dark navy — intentional contrast CTA    */
+  --bg-cta:            #00234b;
 
-  /* Layout */
   --bg-header:         rgba(247, 250, 253, 0.92);
-  --bg-footer:         #00234b;   /* dark navy — intentional footer          */
-
+  --bg-footer:         #00234b;
 }
 
-
-/* ── Base Reset ────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
@@ -117,30 +72,28 @@ body {
   overflow-x: hidden;
 }
 
-/* ── Typography ────────────────────────────────────────────────────── */
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-primary);
   line-height: 1.15;
   letter-spacing: -0.02em;
 }
+
 p { color: var(--text-secondary); line-height: 1.7; }
 
-/* ── Scrollbar ─────────────────────────────────────────────────────── */
 ::-webkit-scrollbar        { width: 5px; }
 ::-webkit-scrollbar-track  { background: #eef4fb; }
 ::-webkit-scrollbar-thumb  { background: var(--primary); border-radius: 4px; }
 
-/* ── Focus ring ────────────────────────────────────────────────────── */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
 
-/* ── Section background helper ─────────────────────────────────────── */
-/* Sections use bg-[var(--bg-*)] in Tailwind which maps to
-   `background-color`. Since our values are gradients, we need
-   `background` property. We patch this with the classes below.       */
-
+/*
+  section-bg-* classes apply gradient backgrounds.
+  Tailwind's bg-[var()] compiles to background-color which doesn't
+  support gradients, so we use these utility classes instead.
+*/
 .section-bg-hero         { background: var(--bg-hero)         !important; }
 .section-bg-services     { background: var(--bg-services)     !important; }
 .section-bg-technologies { background: var(--bg-technologies) !important; }
@@ -152,7 +105,6 @@ p { color: var(--text-secondary); line-height: 1.7; }
 .section-bg-numbers      { background: var(--bg-numbers)      !important; }
 .section-bg-cta          { background: var(--bg-cta)          !important; }
 
-/* ── Marquee ───────────────────────────────────────────────────────── */
 @keyframes marquee {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -164,7 +116,6 @@ p { color: var(--text-secondary); line-height: 1.7; }
 .marquee-track:hover { animation-play-state: paused; }
 .marquee-paused      { animation-play-state: paused !important; }
 
-/* ── Fade-up reveal ────────────────────────────────────────────────── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -172,7 +123,7 @@ p { color: var(--text-secondary); line-height: 1.7; }
 .reveal         { opacity: 0; }
 .reveal.visible { animation: fadeUp 0.55s ease forwards; }
 
-/* ── Accordion ─────────────────────────────────────────────────────── */
+/* CSS grid height trick for smooth accordion open/close */
 .accordion-body {
   display: grid;
   grid-template-rows: 0fr;
@@ -181,29 +132,18 @@ p { color: var(--text-secondary); line-height: 1.7; }
 .accordion-body.open { grid-template-rows: 1fr; }
 .accordion-inner     { overflow: hidden; }
 
-/* ── Card hover lift ───────────────────────────────────────────────── */
 .card-lift { transition: transform 0.22s ease, box-shadow 0.22s ease; }
 .card-lift:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 28px rgba(0, 35, 75, 0.10);
 }
 
-/* ── Section spacing ───────────────────────────────────────────────── */
 .section-py { padding-top: 5rem; padding-bottom: 5rem; }
 @media (min-width: 1024px) {
   .section-py { padding-top: 6.5rem; padding-bottom: 6.5rem; }
 }
 
-/* ── Divider ───────────────────────────────────────────────────────── */
 .divider { height: 1px; background: var(--border-light); }
-
-
-/* ════════════════════════════════════════════════════════════════════
-   BUTTONS — Gradient
-   ════════════════════════════════════════════════════════════════════
-   .btn-primary  → used by Button.jsx primary variant
-   Edit ONLY the two gradient lines to change all button colors.
-   ════════════════════════════════════════════════════════════════════ */
 
 .btn-primary {
   background: linear-gradient(135deg, #0099fa 0%, #00234b 100%);
@@ -214,6 +154,4 @@ p { color: var(--text-secondary); line-height: 1.7; }
   background: linear-gradient(135deg, #007dd4 0%, #001a38 100%);
   box-shadow: 0 4px 20px rgba(0, 153, 250, 0.32);
 }
-.btn-primary:active {
-  transform: scale(0.98);
-}
+.btn-primary:active { transform: scale(0.98); }

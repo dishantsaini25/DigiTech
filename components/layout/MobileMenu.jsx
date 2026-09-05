@@ -6,7 +6,6 @@ import Image from 'next/image';
 export default function MobileMenu({ isOpen, onClose, links = [], ctaButton }) {
   return (
     <>
-      {/* Backdrop */}
       <div
         aria-hidden="true"
         onClick={onClose}
@@ -15,7 +14,6 @@ export default function MobileMenu({ isOpen, onClose, links = [], ctaButton }) {
         }`}
       />
 
-      {/* Drawer */}
       <div
         role="dialog"
         aria-modal="true"
@@ -24,16 +22,9 @@ export default function MobileMenu({ isOpen, onClose, links = [], ctaButton }) {
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        {/* Header */}
         <div className="flex items-center justify-between px-6 h-[68px] border-b border-[var(--border-light)] shrink-0">
           <Link href="/" onClick={onClose} className="flex items-center">
-            <Image
-              src="/logo.png"
-              alt="DIGITECH"
-              width={120}
-              height={36}
-              className="h-8 w-auto object-contain"
-            />
+            <Image src="/logo.png" alt="DIGITECH" width={120} height={36} className="h-8 w-auto object-contain" />
           </Link>
           <button
             onClick={onClose}
@@ -46,7 +37,6 @@ export default function MobileMenu({ isOpen, onClose, links = [], ctaButton }) {
           </button>
         </div>
 
-        {/* Nav links */}
         <nav className="flex-1 overflow-y-auto px-4 py-6 flex flex-col gap-1">
           {links.map((link) => (
             <Link
@@ -60,7 +50,6 @@ export default function MobileMenu({ isOpen, onClose, links = [], ctaButton }) {
           ))}
         </nav>
 
-        {/* Bottom CTA */}
         {ctaButton && (
           <div className="px-6 pb-8 pt-4 border-t border-[var(--border-light)] shrink-0">
             <Link
