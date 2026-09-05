@@ -1,0 +1,159 @@
+{
+  "developmentServices": {
+    "enabled": true,
+    "badge": "What We Build",
+    "heading": "Our Development",
+    "headingAccent": "Services",
+    "subheading": "End-to-end digital solutions crafted to fit your goals — from pixel-perfect interfaces to powerful backend systems.",
+    "tabs": [
+      {
+        "id": "web",
+        "name": "Web Development",
+        "icon": "code",
+        "items": [
+          {
+            "name": "Frontend Development",
+            "description": "Pixel-perfect, performant UIs built with React, Next.js and modern CSS.",
+            "icon": "monitor"
+          },
+          {
+            "name": "Full-Stack Applications",
+            "description": "End-to-end web apps with robust APIs, auth flows and database integrations.",
+            "icon": "layers"
+          },
+          {
+            "name": "CMS Integration",
+            "description": "Headless CMS setups with Sanity, Contentful or WordPress for easy content management.",
+            "icon": "layout"
+          },
+          {
+            "name": "Landing Pages",
+            "description": "High-converting, fast-loading landing pages optimised for SEO and performance.",
+            "icon": "zap"
+          },
+          {
+            "name": "Progressive Web Apps",
+            "description": "App-like experiences that work offline and load instantly on any device.",
+            "icon": "globe"
+          },
+          {
+            "name": "Website Redesign",
+            "description": "Modernise your existing site with a fresh, conversion-focused design.",
+            "icon": "refresh-cw"
+          }
+        ]
+      },
+      {
+        "id": "app",
+        "name": "App Development",
+        "icon": "smartphone",
+        "items": [
+          {
+            "name": "iOS Development",
+            "description": "Native Swift applications for iPhone and iPad with App Store deployment.",
+            "icon": "smartphone"
+          },
+          {
+            "name": "Android Development",
+            "description": "Native Kotlin apps for the Google Play ecosystem with full device coverage.",
+            "icon": "smartphone"
+          },
+          {
+            "name": "React Native",
+            "description": "Cross-platform mobile apps sharing a single codebase for iOS and Android.",
+            "icon": "zap"
+          },
+          {
+            "name": "Flutter Development",
+            "description": "Beautiful, natively compiled apps for mobile, web and desktop from one codebase.",
+            "icon": "layers"
+          },
+          {
+            "name": "Startup MVP",
+            "description": "Lean, rapid-iteration MVPs that let you validate ideas and attract investment fast.",
+            "icon": "trending-up"
+          },
+          {
+            "name": "App Maintenance",
+            "description": "Ongoing performance monitoring, OS updates and feature additions.",
+            "icon": "settings"
+          }
+        ]
+      },
+      {
+        "id": "ecommerce",
+        "name": "E-Commerce",
+        "icon": "shopping-cart",
+        "items": [
+          {
+            "name": "Shopify Development",
+            "description": "Custom Shopify themes, apps and store setups built for high conversion.",
+            "icon": "shopping-cart"
+          },
+          {
+            "name": "WooCommerce Stores",
+            "description": "Flexible WordPress-powered stores with custom payment and shipping flows.",
+            "icon": "package"
+          },
+          {
+            "name": "Custom E-Commerce",
+            "description": "Bespoke e-commerce platforms tailored to complex product and order workflows.",
+            "icon": "database"
+          },
+          {
+            "name": "Payment Integration",
+            "description": "Seamless integration of Razorpay, Stripe, PayPal and local payment gateways.",
+            "icon": "credit-card"
+          },
+          {
+            "name": "Marketplace Solutions",
+            "description": "Multi-vendor marketplaces with seller dashboards and commission management.",
+            "icon": "grid"
+          },
+          {
+            "name": "Store Migration",
+            "description": "Zero-downtime migration to modern platforms without losing SEO or data.",
+            "icon": "arrow-right-circle"
+          }
+        ]
+      },
+      {
+        "id": "crm",
+        "name": "CRM Development",
+        "icon": "database",
+        "items": [
+          {
+            "name": "Custom CRM Systems",
+            "description": "Tailor-made CRM solutions built around your unique business workflows.",
+            "icon": "database"
+          },
+          {
+            "name": "Third-Party Integrations",
+            "description": "Connect your CRM to email, calendar, ERP and marketing automation tools.",
+            "icon": "link"
+          },
+          {
+            "name": "Sales Pipeline Automation",
+            "description": "Automate follow-ups, lead scoring and pipeline stages to close faster.",
+            "icon": "trending-up"
+          },
+          {
+            "name": "Analytics Dashboards",
+            "description": "Real-time reporting dashboards that give your team actionable insights.",
+            "icon": "bar-chart"
+          },
+          {
+            "name": "CRM Migration",
+            "description": "Migrate from legacy systems to modern CRM platforms without data loss.",
+            "icon": "refresh-cw"
+          },
+          {
+            "name": "Mobile CRM",
+            "description": "Mobile-first CRM interfaces so your team can work effectively on the go.",
+            "icon": "smartphone"
+          }
+        ]
+      }
+    ]
+  }
+}

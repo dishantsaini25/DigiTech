@@ -1,0 +1,92 @@
+{
+  "testimonials": {
+    "enabled": true,
+    "badge": "Client Love",
+    "heading": "What Our Clients Say",
+    "headingAccent": "About DIGITECH",
+    "limit": 9,
+    "items": [
+      {
+        "name": "Sachin Verma",
+        "role": "Owner",
+        "company": "Cafe Kizie",
+        "image": "/images/testimonials/sachin.jpg",
+        "rating": 5,
+        "review": "DIGITECH did an outstanding job building our website. They captured the whole vibe of our cafe perfectly — modern, warm and welcoming. The team was professional, responsive and delivered exactly what we envisioned.",
+        "enabled": true
+      },
+      {
+        "name": "Chetan Gupta",
+        "role": "CEO",
+        "company": "Stroll & Swing",
+        "image": "/images/testimonials/chetan.jpg",
+        "rating": 5,
+        "review": "Working with DIGITECH was seamless from start to finish. They built our Shopify store from scratch — handling design, product setup, payment integration and SEO. Everything was delivered on time and to the highest standard.",
+        "enabled": true
+      },
+      {
+        "name": "Kaushal Singh",
+        "role": "Managing Director",
+        "company": "Kaumo Solar",
+        "image": "/images/testimonials/kaushal.jpg",
+        "rating": 5,
+        "review": "DIGITECH completely transformed our digital presence. Their data-driven approach improved our Google rankings significantly and the quality leads started coming in within weeks. Truly a reliable growth partner.",
+        "enabled": true
+      },
+      {
+        "name": "Akanksha Agarwal",
+        "role": "Founder",
+        "company": "Legend Creations",
+        "image": "/images/testimonials/akanksha.jpg",
+        "rating": 5,
+        "review": "The DIGITECH team built our e-commerce store with incredible attention to detail. Product pages, checkout flow, mobile responsiveness — everything works beautifully. Best agency I've worked with.",
+        "enabled": true
+      },
+      {
+        "name": "Vansh Sharma",
+        "role": "Owner",
+        "company": "CCTV Pixels",
+        "image": "/images/testimonials/vansh.jpg",
+        "rating": 5,
+        "review": "They took the time to truly understand our vision for a modern security brand, then delivered a clean, professional website that perfectly represents who we are. The whole process was smooth and organised.",
+        "enabled": true
+      },
+      {
+        "name": "Arun Kumar",
+        "role": "Managing Director",
+        "company": "CB Crown Banquet",
+        "image": "/images/testimonials/arun.jpg",
+        "rating": 5,
+        "review": "DIGITECH helped our banquet business reach more customers through a stunning website and targeted social campaigns. Bookings have increased noticeably since launch. Highly recommend their team.",
+        "enabled": true
+      },
+      {
+        "name": "Sohan Sharma",
+        "role": "Founder",
+        "company": "Kilo Lelo Biryani",
+        "image": "/images/testimonials/sohan.jpg",
+        "rating": 5,
+        "review": "Their work boosted our presence on Zomato and Swiggy, and the new website drives walk-in customers too. The team is friendly, skilled and genuinely cares about results. Highly recommended.",
+        "enabled": true
+      },
+      {
+        "name": "Prachi Shah",
+        "role": "Managing Director",
+        "company": "Galaxy Certifications",
+        "image": "/images/testimonials/prachi.jpg",
+        "rating": 5,
+        "review": "DIGITECH handled our digital campaigns with real precision. ROI has been outstanding and we've seen consistent business growth every month since partnering with them.",
+        "enabled": true
+      },
+      {
+        "name": "Rohit Malhotra",
+        "role": "Founder & Director",
+        "company": "True Gems Kart",
+        "image": "/images/testimonials/rohit.jpg",
+        "rating": 5,
+        "review": "From website traffic to social media engagement, every metric improved after working with DIGITECH. They are one of the best digital teams I have encountered — strategic, creative and genuinely results-oriented.",
+        "enabled": true
+      }
+    ]
+  }
+}

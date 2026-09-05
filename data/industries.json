@@ -1,0 +1,33 @@
+{
+  "industries": {
+    "enabled": true,
+    "badge": "Sectors We Serve",
+    "heading": "Industries",
+    "headingAccent": "We Serve",
+    "subheading": "We deliver tailored digital solutions across a wide range of industries — helping businesses in every sector grow and compete online.",
+    "limit": 12,
+    "items": [
+      { "name": "Retail",            "icon": "shopping-bag",   "image": "/images/industries/retail.jpg",          "enabled": true },
+      { "name": "Real Estate",       "icon": "home",           "image": "/images/industries/real-estate.jpg",     "enabled": true },
+      { "name": "Travel & Tourism",  "icon": "map-pin",        "image": "/images/industries/travel.jpg",          "enabled": true },
+      { "name": "Healthcare",        "icon": "heart",          "image": "/images/industries/healthcare.jpg",      "enabled": true },
+      { "name": "Education",         "icon": "book-open",      "image": "/images/industries/education.jpg",       "enabled": true },
+      { "name": "E-Commerce",        "icon": "shopping-cart",  "image": "/images/industries/ecommerce.jpg",       "enabled": true },
+      { "name": "Startups",          "icon": "zap",            "image": "/images/industries/startups.jpg",        "enabled": true },
+      { "name": "Media",             "icon": "tv",             "image": "/images/industries/media.jpg",           "enabled": true },
+      { "name": "Govt. & Public",    "icon": "landmark",       "image": "/images/industries/government.jpg",      "enabled": true },
+      { "name": "Nonprofits & NGOs", "icon": "users",          "image": "/images/industries/nonprofit.jpg",       "enabled": true },
+      { "name": "Logistics",         "icon": "truck",          "image": "/images/industries/logistics.jpg",       "enabled": true },
+      { "name": "Manufacturing",     "icon": "settings",       "image": "/images/industries/manufacturing.jpg",   "enabled": true },
+      { "name": "Finance",           "icon": "trending-up",    "image": "/images/industries/finance.jpg",         "enabled": true },
+      { "name": "On-Demand",         "icon": "clock",          "image": "/images/industries/on-demand.jpg",       "enabled": true },
+      { "name": "Automotive",        "icon": "truck",          "image": "/images/industries/automotive.jpg",      "enabled": true },
+      { "name": "Gaming",            "icon": "cpu",            "image": "/images/industries/gaming.jpg",          "enabled": true },
+      { "name": "Food & Beverages",  "icon": "coffee",         "image": "/images/industries/food.jpg",            "enabled": true },
+      { "name": "Legal Services",    "icon": "file-text",      "image": "/images/industries/legal.jpg",           "enabled": true },
+      { "name": "Sports",            "icon": "activity",       "image": "/images/industries/sports.jpg",          "enabled": true },
+      { "name": "Fitness",           "icon": "heart",          "image": "/images/industries/fitness.jpg",         "enabled": true },
+      { "name": "Rentals",           "icon": "key",            "image": "/images/industries/rentals.jpg",         "enabled": true }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "faqs": {
+    "enabled": true,
+    "badge": "Got Questions?",
+    "heading": "Frequently Asked Questions",
+    "headingAccent": "About Our Services",
+    "limit": 8,
+    "items": [
+      {
+        "question": "What app development services does DIGITECH offer?",
+        "answer": "DIGITECH offers end-to-end mobile app development including native iOS (Swift), native Android (Kotlin), and cross-platform apps using React Native and Flutter. We handle everything from concept, UX/UI design and development through to App Store and Play Store deployment.",
+        "enabled": true
+      },
+      {
+        "question": "Do you develop native iOS applications?",
+        "answer": "Yes — we build native iOS applications using Swift that fully conform to Apple's Human Interface Guidelines. Our iOS team ensures your app performs flawlessly across all iPhone and iPad devices with a polished, App Store-ready experience.",
+        "enabled": true
+      },
+      {
+        "question": "What CRM development services does DIGITECH provide?",
+        "answer": "We build fully custom CRM systems tailored to your business workflows, including lead management, pipeline automation, third-party integrations (email, calendar, ERP), analytics dashboards, role-based access, and mobile-ready interfaces.",
+        "enabled": true
+      },
+      {
+        "question": "What web development services does DIGITECH offer?",
+        "answer": "We cover the full spectrum — frontend development with React and Next.js, full-stack applications, headless CMS integration, e-commerce solutions, landing pages, progressive web apps, and complete website redesigns. Every project is built with performance, SEO and accessibility in mind.",
+        "enabled": true
+      },
+      {
+        "question": "Can DIGITECH build a startup MVP quickly?",
+        "answer": "Absolutely. We specialise in rapid MVP development for startups — helping you ship a functional, investor-ready product in weeks rather than months. Our process focuses on the core value proposition first so you can validate your idea and iterate fast.",
+        "enabled": true
+      },
+      {
+        "question": "Does DIGITECH offer digital marketing services?",
+        "answer": "Yes. Alongside development, we provide SEO, social media marketing, content strategy, Google Ads and performance analytics. Our integrated approach means your website and marketing campaigns work together as a single growth engine.",
+        "enabled": true
+      },
+      {
+        "question": "How does your project development process work?",
+        "answer": "We follow a five-step process: Discovery (understanding your goals), Strategy (planning architecture and design direction), Design (wireframes and visual design with your approval), Development (agile build cycles with regular updates), and Launch & Support (deployment, QA and ongoing maintenance).",
+        "enabled": true
+      },
+      {
+        "question": "What is your typical project timeline and pricing?",
+        "answer": "Timelines vary by scope — a landing page can launch in 1–2 weeks, a full web application typically takes 6–12 weeks, and a mobile app 8–16 weeks. Pricing is project-based. We provide a detailed proposal after an initial discovery call so there are no surprises.",
+        "enabled": true
+      }
+    ]
+  }
+}

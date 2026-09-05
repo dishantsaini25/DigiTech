@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "enabled": true,
+    "badge": "Digital Agency",
+    "title": "We Build Digital Experiences That Move Businesses Forward.",
+    "description": "We design and develop modern websites, web applications and digital experiences that help businesses grow, connect and convert.",
+    "primaryButton": {
+      "label": "Explore Our Work",
+      "href": "/work"
+    },
+    "secondaryButton": {
+      "label": "Let's Talk",
+      "href": "/contact"
+    },
+    "highlights": [
+      {
+        "value": "150+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "98%",
+        "label": "Client Satisfaction"
+      },
+      {
+        "value": "6+",
+        "label": "Years of Experience"
+      }
+    ],
+    "image": "/images/hero-visual.jpg"
+  },
+
+  "successNumbers": {
+    "enabled": true,
+    "badge": "Our Impact",
+    "heading": "Client Success Stories &",
+    "headingAccent": "Empowering Numbers",
+    "subheading": "See How We're Making an Impact.",
+    "items": [
+      {
+        "value": 150,
+        "suffix": "+",
+        "label": "Projects Delivered",
+        "enabled": true
+      },
+      {
+        "value": 98,
+        "suffix": "%",
+        "label": "Client Retention Rate",
+        "enabled": true
+      },
+      {
+        "value": 6,
+        "suffix": "+",
+        "label": "Years of Experience",
+        "enabled": true
+      },
+      {
+        "value": 30,
+        "suffix": "+",
+        "label": "Team Members",
+        "enabled": true
+      },
+      {
+        "value": 1,
+        "suffix": "M+",
+        "label": "Users Reached",
+        "enabled": true
+      },
+      {
+        "value": 42,
+        "suffix": "+",
+        "label": "Awards Won",
+        "enabled": true
+      }
+    ]
+  },
+
+  "cta": {
+    "enabled": true,
+    "badge": "",
+    "title": "Transform Your Online Presence with a Professional Website",
+    "description": "Get a high converting website tailored by DigiTech.",
+    "chatButton": {
+      "enabled": true,
+      "label": "Chat Now",
+      "url": "https://wa.me/919999999999"
+    },
+    "projectButton": {
+      "enabled": false,
+      "label": "Start Your Project",
+      "url": "/contact"
+    }
+  }
+}

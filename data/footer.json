@@ -1,0 +1,39 @@
+{
+  "footer": {
+    "enabled": true,
+    "brand": "DIGITECH",
+    "tagline": "We Build Digital Experiences....",
+    "description": "DIGITECH is a premium digital agency crafting modern websites, web applications and mobile experiences that help businesses grow, connect and convert.",
+    "quickLinks": [
+      { "label": "Home",       "href": "/",        "enabled": true },
+      { "label": "Services",   "href": "/services","enabled": true },
+      { "label": "Our Work",   "href": "/work",    "enabled": true },
+      { "label": "Our Client", "href": "/clients", "enabled": true },
+      { "label": "About Us",   "href": "/about",   "enabled": true },
+      { "label": "Contact Us", "href": "/contact", "enabled": true }
+    ],
+    "services": [
+      { "label": "Web Development",    "href": "/services/web-development",   "enabled": true },
+      { "label": "App Development",    "href": "/services/app-development",   "enabled": true },
+      { "label": "E-Commerce",         "href": "/services/ecommerce",         "enabled": true },
+      { "label": "CRM Development",    "href": "/services/crm-development",   "enabled": true },
+      { "label": "UI/UX Design",       "href": "/services/ui-ux-design",      "enabled": true },
+      { "label": "Digital Marketing",  "href": "/services/digital-marketing", "enabled": true },
+      { "label": "SEO Services",       "href": "/services/seo",               "enabled": true },
+      { "label": "Shopify Development","href": "/services/shopify",           "enabled": true }
+    ],
+    "socialLinks": [
+      { "platform": "instagram", "href": "https://instagram.com/digitech",  "enabled": true },
+      { "platform": "linkedin",  "href": "https://linkedin.com/company/digitech", "enabled": true },
+      { "platform": "twitter",   "href": "https://twitter.com/digitech",    "enabled": true },
+      { "platform": "facebook",  "href": "https://facebook.com/digitech",   "enabled": true },
+      { "platform": "youtube",   "href": "https://youtube.com/@digitech",   "enabled": true }
+    ],
+    "contact": {
+      "email": "hello@digitech.in",
+      "phone": "+91 99999 99999",
+      "address": "Delhi NCR, India"
+    },
+    "copyright": "© 2026 DIGITECH. All rights reserved."
+  }
+}

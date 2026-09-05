@@ -1,0 +1,60 @@
+// All 29 clients from Promfly website
+export const clients = [
+  { name: 'The Beer Garden',              initial: 'BG'  },
+  { name: 'The Japanese Language School', initial: 'JL'  },
+  { name: 'CB Crown Banquet',             initial: 'CB'  },
+  { name: 'Hey Fairies',                  initial: 'HF'  },
+  { name: 'Kilo Lelo Biryani',            initial: 'KL'  },
+  { name: 'N+ One Fashion',               initial: 'N+'  },
+  { name: 'Ministry of Daru',             initial: 'MD'  },
+  { name: 'Noida Urban',                  initial: 'NU'  },
+  { name: 'Team Pharmacy',                initial: 'TP'  },
+  { name: 'Kalakar India',                initial: 'KI'  },
+  { name: 'Tata Cliq',                    initial: 'TC'  },
+  { name: 'Ever Fit Yoga',                initial: 'EF'  },
+  { name: 'Shop on Cliq',                 initial: 'SC'  },
+  { name: 'Banquet Bee',                  initial: 'BB'  },
+  { name: 'Code With TLS',               initial: 'CW'  },
+  { name: 'Legend Creations',            initial: 'LC'  },
+  { name: 'Svadha',                       initial: 'SV'  },
+  { name: 'Team Foreign Languages',      initial: 'TF'  },
+  { name: 'Kaumo Solar',                 initial: 'KS'  },
+  { name: 'Scan Center',                 initial: 'SC'  },
+  { name: 'Cafe Kizie',                  initial: 'CK'  },
+  { name: 'Hey Chatoraas',               initial: 'HC'  },
+  { name: 'CCTV Pixels',                 initial: 'CP'  },
+  { name: 'Stroll & Swing',              initial: 'SS'  },
+  { name: 'True Gems Kart',              initial: 'TG'  },
+  { name: 'Cure Stories',                initial: 'CS'  },
+  { name: 'Shooter Unknown',             initial: 'SU'  },
+  { name: 'The Quiet Touch',             initial: 'QT'  },
+  { name: 'Dental Center',               initial: 'DC'  },
+];
+
+// Technologies & platforms from Promfly homepage
+export const technologies = [
+  { name: 'Grammarly',  category: 'Content'      },
+  { name: 'Yoast',      category: 'SEO'          },
+  { name: 'Canva Pro',  category: 'Design'       },
+  { name: 'Alexa',      category: 'Analytics'    },
+  { name: 'Adobe',      category: 'Design'       },
+  { name: 'Ahrefs',     category: 'SEO'          },
+  { name: 'Capcut Pro', category: 'Video'        },
+  { name: 'MS Clarity', category: 'Analytics'    },
+  { name: 'Photoshop',  category: 'Design'       },
+  { name: 'Illustrator',category: 'Design'       },
+  { name: 'Chat GPT',   category: 'AI'           },
+  { name: 'Descript',   category: 'Video'        },
+  { name: 'Notion AI',  category: 'Productivity' },
+  { name: 'SpyFu',      category: 'SEO'          },
+];
+
+// Industries Promfly serves
+export const industries = [
+  'Retail', 'Real Estate', 'Travel & Tourism', 'Healthcare',
+  'Education', 'E-Commerce', 'Startups', 'Media',
+  'Govt. & Public', 'Nonprofits & NGOs', 'Logistics', 'Manufacturing',
+  'Finance', 'On-Demand', 'Automotive', 'Gaming',
+  'Food & Beverages', 'Legal Services', 'Sports', 'Fitness',
+  'Rentals',
+];

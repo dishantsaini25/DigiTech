@@ -1,0 +1,158 @@
+{
+  "clients": {
+    "enabled": true,
+    "badge": "Trusted By",
+    "heading": "Our",
+    "headingAccent": "Clients",
+    "subheading": "Businesses of every size trust DIGITECH to bring their digital vision to life.",
+    "limit": null,
+    "autoplay": true,
+    "items": [
+      {
+        "name": "The Beer Garden",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2F8.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "The Japanese Language School",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Ftls.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "CB Crown Banquet",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fcb.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Hey Fairies",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fcb.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Kilo Lelo Biryani",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fbiryani.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "N+ One Fashion",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fnplus.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Ministry of Daru",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fmod.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Noida Urban",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fnoida-urban.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Team Pharmacy",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fteampharmacy.webp&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Kalakar India",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fkalakarindia.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Tata Cliq",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Ftata-cliq.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Ever Fit Yoga",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fever-fit.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Shop on Cliq",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fshoponcliq.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Banquet Bee",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fbanquetbee.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Code With TLS",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fcwt.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Legend Creations",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Flegend.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Svadha",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2F1.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Team Foreign Languages",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Ftils.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Kaumo Solar",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2F3.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Scan Center",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2F4.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Cafe Kizie",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2F5.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Hey Chatoraas",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2F6.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "CCTV Pixels",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fcctv.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Stroll & Swing",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fstroll-swing.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "True Gems Kart",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2F11.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Cure Stories",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fcure.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Shooter Unknown",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2F12.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "The Quiet Touch",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fquiet-touch.png&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      },
+      {
+        "name": "Dental Center",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Fclients%2Fdental-center.webp&w=640&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
+        "enabled": true
+      }
+    ]
+  }
+}
