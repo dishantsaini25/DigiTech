@@ -1,0 +1,107 @@
+{
+  "about": {
+    "enabled": true,
+
+    "meta": {
+      "title": "About Us | DIGITECH",
+      "description": "Learn more about DIGITECH and our approach to building modern digital solutions."
+    },
+
+    "hero": {
+      "enabled": true,
+      "badge": "About Us",
+      "heading": "Building Digital Solutions",
+      "headingAccent": "That Move Businesses Forward",
+      "description": "We help businesses turn ideas into reliable, scalable and engaging digital experiences through thoughtful design and modern technology.",
+      "image": "/AboutHero.png"
+    },
+
+    "intro": {
+      "enabled": true,
+      "badge": "Who We Are",
+      "heading": "Technology With a",
+      "headingAccent": "Purpose",
+      "description": "DIGITECH is a digital solutions company focused on creating websites, applications, eCommerce platforms and business systems that solve real problems and support long-term growth.",
+      "content": [
+        "We believe technology should make businesses simpler, faster and more connected. That's why every solution we build starts with understanding the business, its customers and its goals.",
+        "From the first idea to design, development and deployment, we focus on creating digital products that are practical, scalable and built for real-world use."
+      ],
+      "highlights": [
+        "Business-focused digital solutions",
+        "Modern and scalable technology",
+        "Clean and user-friendly experiences",
+        "Long-term support and collaboration"
+      ],
+      "button": {
+        "enabled": true,
+        "label": "Let's Work Together",
+        "href": "/contact"
+      }
+    },
+
+    "coreServices": {
+      "enabled": true,
+      "badge": "What We Do",
+      "heading": "Our Core",
+      "headingAccent": "Services",
+      "description": "We provide end-to-end digital solutions designed around your business goals.",
+      "serviceIds": [
+        "frontend-development",
+        "full-stack-development",
+        "ios-development",
+        "shopify-development",
+        "custom-crm-systems",
+        "ui-ux-design"
+      ]
+    },
+
+    "missionVision": {
+      "enabled": true,
+      "badge": "What Drives Us",
+      "heading": "Our Mission &",
+      "headingAccent": "Vision",
+
+      "mission": {
+        "title": "Our Mission",
+        "description": "To help businesses use technology with confidence by creating digital solutions that are useful, scalable, intuitive and aligned with real business goals.",
+        "icon": "target"
+      },
+
+      "vision": {
+        "title": "Our Vision",
+        "description": "To become a trusted technology partner for businesses looking to build, improve and scale their digital presence through innovation and thoughtful technology.",
+        "icon": "eye"
+      }
+    },
+
+    "approach": {
+      "enabled": true,
+      "badge": "How We Work",
+      "heading": "A Better Way to",
+      "headingAccent": "Build Digital Products",
+      "description": "We keep the process transparent and focused so every stage of the project moves your business closer to its goal.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Understand",
+          "description": "We understand your business, audience, challenges and objectives."
+        },
+        {
+          "number": "02",
+          "title": "Plan",
+          "description": "We define the right structure, features, technology and roadmap."
+        },
+        {
+          "number": "03",
+          "title": "Build",
+          "description": "We turn the plan into a polished digital product focused on quality and usability."
+        },
+        {
+          "number": "04",
+          "title": "Launch & Grow",
+          "description": "We help you improve, maintain and scale your digital solution."
+        }
+      ]
+    }
+  }
+}

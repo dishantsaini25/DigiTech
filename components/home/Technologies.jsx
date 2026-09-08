@@ -1,43 +1,28 @@
+'use client';
+
 import Image from 'next/image';
+import { SwiperSlide } from 'swiper/react';
+
 import techData from '@/data/technologies.json';
 import SectionHeading from '@/components/ui/SectionHeading';
+import Slider from '@/components/ui/Slider';
 
 const { technologies: td } = techData;
 
-/* Apply enabled filter + limit */
 function getItems(items = [], limit) {
   const filtered = items.filter((item) => item.enabled !== false);
 
   return limit ? filtered.slice(0, limit) : filtered;
 }
 
-/* Single Technology Item */
 function TechItem({ item }) {
   return (
-    <div
-      className="
-        flex
-        flex-col
-        items-center
-        justify-center
-        shrink-0
-        w-[105px]
-        sm:w-[120px]
-        mx-4
-        sm:mx-6
-        group
-      "
-    >
-      {/* Logo */}
+    <div className="flex flex-col items-center justify-center group w-full">
       <div
         className="
-          w-12
-          h-12
-          sm:w-14
-          sm:h-14
-          flex
-          items-center
-          justify-center
+          w-12 h-12
+          sm:w-14 sm:h-14
+          flex items-center justify-center
           mb-3
           transition-transform
           duration-300
@@ -50,26 +35,15 @@ function TechItem({ item }) {
             alt={`${item.name} logo`}
             width={56}
             height={56}
-            className="
-              w-full
-              h-full
-              object-contain
-            "
+            className="w-full h-full object-contain"
           />
         ) : (
-          <span
-            className="
-              text-[var(--primary)]
-              font-bold
-              text-lg
-            "
-          >
+          <span className="text-[var(--primary)] font-bold text-lg">
             {item.name.substring(0, 2).toUpperCase()}
           </span>
         )}
       </div>
 
-      {/* Technology Name */}
       <span
         className="
           text-sm
@@ -90,28 +64,15 @@ function TechItem({ item }) {
 }
 
 export default function Technologies() {
-  /* Section disabled from JSON */
   if (!td?.enabled) return null;
 
-  /* Enabled items + limit */
   const items = getItems(td.items, td.limit);
 
-  /* Nothing to display */
   if (!items.length) return null;
 
-  /*
-    Duplicate items for seamless marquee
-  */
-  const doubled = [...items, ...items];
-
   return (
-    <section
-      className="
-        section-py
-        section-bg-technologies
-        overflow-hidden
-      "
-    >
+    <section className="section-py section-bg-technologies overflow-hidden">
+
       {/* Heading */}
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
         <SectionHeading
@@ -123,8 +84,8 @@ export default function Technologies() {
         />
       </div>
 
-      {/* Technology Marquee */}
-      <div className="relative w-full overflow-hidden">
+      {/* Slider */}
+      <div className="relative w-full">
 
         {/* Left Fade */}
         <div
@@ -142,7 +103,7 @@ export default function Technologies() {
           "
           style={{
             background:
-            'linear-gradient(to right, #f7fafd, transparent)',
+              'linear-gradient(to right, #f7fafd, transparent)',
           }}
         />
 
@@ -162,35 +123,45 @@ export default function Technologies() {
           "
           style={{
             background:
-            'linear-gradient(to left, #f7fafd, transparent)',
+              'linear-gradient(to left, #f7fafd, transparent)',
           }}
         />
 
-        {/* Marquee */}
-        <div
-          className={`
-            flex
-            items-start
-            w-max
-            marquee-track
-            ${
-              td.autoplay === false
-                ? 'marquee-paused'
-                : ''
-            }
-          `}
-          style={{
-            animationDuration: `${td.speed ?? 35}s`,
+        <Slider
+          slidesPerView={2}
+          spaceBetween={20}
+          speed={5000}
+          freeMode
+          breakpoints={{
+            480: {
+              slidesPerView: 3,
+              spaceBetween: 24,
+            },
+            640: {
+              slidesPerView: 4,
+              spaceBetween: 28,
+            },
+            768: {
+              slidesPerView: 5,
+              spaceBetween: 32,
+            },
+            1024: {
+              slidesPerView: 6,
+              spaceBetween: 36,
+            },
+            1280: {
+              slidesPerView: 7,
+              spaceBetween: 40,
+            },
           }}
-          aria-label="Technologies and platforms we build with"
+          className="technologies-slider"
         >
-          {doubled.map((item, index) => (
-            <TechItem
-              key={`${item.name}-${index}`}
-              item={item}
-            />
+          {items.map((item, index) => (
+            <SwiperSlide key={`${item.name}-${index}`}>
+              <TechItem item={item} />
+            </SwiperSlide>
           ))}
-        </div>
+        </Slider>
       </div>
     </section>
   );

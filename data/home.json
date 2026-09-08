@@ -26,7 +26,7 @@
         "label": "Years of Experience"
       }
     ],
-    "image": "/images/hero-visual.jpg"
+    "image": "/HeroBanner.png"
   },
 
   "successNumbers": {
@@ -39,38 +39,32 @@
       {
         "value": 150,
         "suffix": "+",
-        "label": "Projects Delivered",
-        "enabled": true
+        "label": "Projects Delivered"
       },
       {
         "value": 98,
         "suffix": "%",
-        "label": "Client Retention Rate",
-        "enabled": true
+        "label": "Client Retention Rate"
       },
       {
         "value": 6,
         "suffix": "+",
-        "label": "Years of Experience",
-        "enabled": true
+        "label": "Years of Experience"
       },
       {
         "value": 30,
         "suffix": "+",
-        "label": "Team Members",
-        "enabled": true
+        "label": "Team Members"
       },
       {
         "value": 1,
         "suffix": "M+",
-        "label": "Users Reached",
-        "enabled": true
+        "label": "Users Reached"
       },
       {
         "value": 42,
         "suffix": "+",
-        "label": "Awards Won",
-        "enabled": true
+        "label": "Awards Won"
       }
     ]
   },

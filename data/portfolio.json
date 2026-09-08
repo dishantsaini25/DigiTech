@@ -1,0 +1,665 @@
+{
+  "portfolio": {
+    "enabled": true,
+
+    "meta": {
+      "title": "Our Work | DIGITECH",
+      "description": "Explore websites, applications, eCommerce platforms and digital solutions built by DIGITECH."
+    },
+
+    "hero": {
+      "enabled": true,
+      "badge": "Our Portfolio",
+      "heading": "Our Work Speaks",
+      "headingAccent": "for Itself",
+      "description": "Explore the digital products, websites and business solutions we've built to help brands grow."
+    },
+
+    "stats": {
+      "enabled": true,
+      "items": [
+        {
+          "value": "250+",
+          "label": "Successful Projects",
+          "icon": "trending-up"
+        },
+        {
+          "value": "50+",
+          "label": "Happy Clients",
+          "icon": "users"
+        }
+      ]
+    },
+
+    "filters": [
+      "All",
+      "SEO",
+      "Web Development",
+      "E-commerce",
+      "UGC Content",
+      "Social Media",
+      "Mobile App Development",
+      "Graphic Design",
+      "Web Design",
+      "LMS"
+    ],
+
+    "projects": [
+      {
+        "id": "kamou-solar",
+        "title": "Kamou Solar – Digital Transformation",
+        "client": "Kamou Solar",
+        "image": "/PortfolioPage/kamou-solar.png",
+        "categories": [
+          "Web Development",
+          "SEO",
+          "Social Media",
+          "Digital Marketing"
+        ],
+        "description": "Developed a high-end website using React and Next.js with a custom analytics dashboard. Executed comprehensive SEO and social media strategies to maximize visibility.",
+        "results": [
+          "300% increase in website traffic",
+          "220% growth in social engagement",
+          "Top 3 local SEO ranking in renewable energy"
+        ],
+        "url": "https://www.kaumosolar.com"
+      },
+
+      {
+        "id": "vynk-parking",
+        "title": "Vynk Parking – Smart Solutions",
+        "client": "Vynk Parking",
+        "image": "/PortfolioPage/vynk-parking.png",
+        "categories": [
+          "Web Design",
+          "Web Development",
+          "Graphic Design",
+          "Mobile App Development",
+          "SEO"
+        ],
+        "description": "Designed and developed a responsive website, crafted a modern brand identity including logo and business cards, and built a feature-rich mobile app with an admin dashboard for real-time parking discovery, booking, and management.",
+        "results": [
+          "Complete digital brand identity and online presence",
+          "Seamless parking booking experience via mobile app",
+          "Centralized dashboard for efficient parking management"
+        ],
+        "url": "https://www.vynkparking.com"
+      },
+
+      {
+        "id": "banquetbee",
+        "title": "BanquetBee – Platform Development",
+        "client": "BanquetBee",
+        "image": "/PortfolioPage/banquetbee.png",
+        "categories": [
+          "Web Development",
+          "Web Design",
+          "SEO"
+        ],
+        "description": "Built a listing platform with an admin dashboard for banquet and event management and provided end-to-end SEO optimization.",
+        "results": [
+          "200% increase in user engagement",
+          "150% growth in bookings",
+          "Top 5 rankings for event keywords"
+        ],
+        "url": "https://www.banquetbee.com"
+      },
+
+      {
+        "id": "ministry-of-daru",
+        "title": "Ministry of Daru – Branding & Marketing",
+        "client": "Ministry of Daru",
+        "image": "/PortfolioPage/ministry-of-daru.png",
+        "categories": [
+          "Web Development",
+          "Web Design",
+          "SEO",
+          "Digital Marketing",
+          "Social Media"
+        ],
+        "description": "Created a responsive website and executed UGC-driven social campaigns, influencer collaborations, SEO, and paid ads.",
+        "results": [
+          "Higher social engagement",
+          "Increase in online orders",
+          "Improved local visibility"
+        ],
+        "url": "https://www.ministryofdaru.com"
+      },
+
+      {
+        "id": "shooter-unknown",
+        "title": "Shooter Unknown – Shopify Store",
+        "client": "Shooter Unknown",
+        "image": "/PortfolioPage/shooter-unknown.png",
+        "categories": [
+          "E-commerce",
+          "Web Development",
+          "Web Design",
+          "Shopify"
+        ],
+        "description": "Developed a Shopify store with optimized UX, secure payments, and catalog management.",
+        "results": [
+          "Successful e-commerce launch",
+          "Improved product management",
+          "Better conversion experience"
+        ],
+        "url": "https://www.shooterunknown.in"
+      },
+
+      {
+        "id": "svadha",
+        "title": "Svadha – WooCommerce & LMS",
+        "client": "Svadha",
+        "image": "/PortfolioPage/svadha.png",
+        "categories": [
+          "E-commerce",
+          "WooCommerce",
+          "Digital Marketing",
+          "Social Media Marketing",
+          "LMS"
+        ],
+        "description": "Enhanced WooCommerce store, created conversion-focused landing pages, and implemented a learning management system.",
+        "results": [
+          "Increased sales and registrations",
+          "High-performing social campaigns",
+          "Smooth LMS experience"
+        ],
+        "url": "https://workshops.svadha.co"
+      },
+
+      {
+        "id": "luvblink",
+        "title": "Luvblink – Web & Mobile Platform",
+        "client": "Luvblink",
+        "image": "/PortfolioPage/luvblink.png",
+        "categories": [
+          "Web Development",
+          "Mobile App Development",
+          "SEO",
+          "UGC Content",
+          "Social Media"
+        ],
+        "description": "Built website and mobile app with chat features, integrated SEO, and managed UGC campaigns.",
+        "results": [
+          "Platform launched successfully",
+          "Improved user interaction",
+          "Stronger online presence"
+        ],
+        "url": "https://www.luvblink.com"
+      },
+
+      {
+        "id": "kilo-lelo-biryani",
+        "title": "Kilo Lelo Biryani – Digital & Delivery",
+        "client": "Kilo Lelo Biryani",
+        "image": "/PortfolioPage/kilo-lelo-biryani.png",
+        "categories": [
+          "Web Development",
+          "Mobile App Development",
+          "SEO",
+          "UGC Content",
+          "Social Media"
+        ],
+        "description": "Built website, optimized Swiggy/Zomato profiles, and executed social campaigns.",
+        "results": [
+          "Higher online orders",
+          "Optimized delivery presence",
+          "Improved brand awareness"
+        ],
+        "url": "https://www.kilolelobiryani.com"
+      },
+
+      {
+        "id": "quiet-touch",
+        "title": "The Quiet Touch – WordPress E-commerce & SEO",
+        "client": "The Quiet Touch",
+        "image": "/PortfolioPage/the-quiet-touch.png",
+        "categories": [
+          "E-commerce",
+          "WordPress",
+          "SEO"
+        ],
+        "description": "Built a WordPress e-commerce website with payment and shipping integrations and implemented SEO to drive conversions.",
+        "results": [
+          "Fully integrated online store launched",
+          "Smooth checkout and shipping automation",
+          "Increased sales through improved SEO visibility"
+        ],
+        "url": "https://thequiettouch.com"
+      },
+
+      {
+        "id": "stroll-and-swing",
+        "title": "Stroll and Swing – Shopify E-commerce Store",
+        "client": "Stroll and Swing",
+        "image": "/PortfolioPage/stroll-and-swing.png",
+        "categories": [
+          "E-commerce",
+          "Shopify"
+        ],
+        "description": "Developed a Shopify store with secure payment gateway, shipping integrations, and optimized product experience.",
+        "results": [
+          "Shopify store launched successfully",
+          "Seamless checkout and logistics integration",
+          "Improved shopping experience and conversions"
+        ],
+        "url": "https://strollandswing.com"
+      },
+
+      {
+        "id": "delhi-dental-center",
+        "title": "Delhi Dental Center – Website Customization & SEO",
+        "client": "Delhi Dental Center",
+        "image": "/PortfolioPage/delhi-dental-center.png",
+        "categories": [
+          "Web Development",
+          "SEO"
+        ],
+        "description": "Customized website UI/UX, improved technical SEO, optimized service pages, and enhanced local search visibility.",
+        "results": [
+          "Improved organic visibility",
+          "Higher local search rankings",
+          "Better site performance and UX"
+        ],
+        "url": "https://delhidentalcenter.com"
+      },
+
+      {
+        "id": "la-classe",
+        "title": "La Classe – SEO Optimization",
+        "client": "La Classe",
+        "image": "/PortfolioPage/la-classe.png",
+        "categories": [
+          "SEO",
+          "Content Optimization"
+        ],
+        "description": "Executed on-page SEO, content optimization, and technical fixes to improve rankings and organic traffic.",
+        "results": [
+          "Improved keyword rankings",
+          "Increase in organic traffic",
+          "Better search visibility"
+        ],
+        "url": "https://www.laclasse.in"
+      },
+
+      {
+        "id": "cure-stories",
+        "title": "Cure Stories – React & Next.js Platform",
+        "client": "Cure Stories",
+        "image": "/PortfolioPage/cure-stories.png",
+        "categories": [
+          "Web Development",
+          "React",
+          "Next.js"
+        ],
+        "description": "Developed a high-performance React and Next.js website with secure payment integration and seamless user experience.",
+        "results": [
+          "Fully responsive modern web platform",
+          "Secure and smooth payment flow",
+          "Improved user engagement and trust"
+        ],
+        "url": "https://www.curestories.com"
+      },
+
+      {
+        "id": "basecore-lifestyle",
+        "title": "BaseCore Lifestyle – WordPress E-commerce Store",
+        "client": "BaseCore Lifestyle",
+        "image": "/PortfolioPage/basecore-lifestyle.png",
+        "categories": [
+          "E-commerce",
+          "WordPress",
+          "Web Development"
+        ],
+        "description": "Built a WordPress e-commerce store with custom branding, optimized checkout, and product management.",
+        "results": [
+          "Scalable online store launched",
+          "Optimized product and order flow",
+          "Enhanced customer shopping experience"
+        ],
+        "url": "https://basecore-lifestyle.com"
+      },
+
+      {
+        "id": "nplus-one-fashion",
+        "title": "N+ One Fashion – Social Media Marketing",
+        "client": "N+ One Fashion",
+        "image": "/PortfolioPage/nplus-one-fashion.png",
+        "categories": [
+          "Social Media Marketing",
+          "Digital Marketing"
+        ],
+        "description": "Managed and optimized social media campaigns with creative testing, audience targeting, and performance tracking.",
+        "results": [
+          "Improved ROAS and conversions",
+          "Better audience targeting and engagement",
+          "Increased brand awareness"
+        ],
+        "url": "https://nplusonefashion.com"
+      },
+
+      {
+        "id": "zakran",
+        "title": "Zakran – Shopify & UGC",
+        "client": "Zakran",
+        "image": "/PortfolioPage/zakran.png",
+        "categories": [
+          "E-commerce",
+          "Shopify",
+          "Social Media Marketing",
+          "UGC Content"
+        ],
+        "description": "Built Shopify store, created UGC content, and ran social media campaigns.",
+        "results": [
+          "Store launched successfully",
+          "Higher brand trust",
+          "Better conversions"
+        ],
+        "url": "https://zakran.com"
+      },
+
+      {
+        "id": "my-bus-time",
+        "title": "My Bus Time – Dynamic Platform",
+        "client": "My Bus Time",
+        "image": "/PortfolioPage/my-bus-time.png",
+        "categories": [
+          "Web Development",
+          "SEO",
+          "Site Maintenance",
+          "AdSense"
+        ],
+        "description": "Developed dynamic route system, implemented SEO, and achieved Google AdSense approval.",
+        "results": [
+          "Dynamic route management",
+          "Google AdSense approval",
+          "Improved search visibility"
+        ],
+        "url": "https://www.mybustime.com"
+      },
+
+      {
+        "id": "zammy",
+        "title": "Zammy – Shopify Store",
+        "client": "Zammy",
+        "image": "/PortfolioPage/zammy.png",
+        "categories": [
+          "E-commerce",
+          "Shopify",
+          "Social Media Marketing",
+          "UGC Content"
+        ],
+        "description": "Built Shopify store and integrated UGC strategies.",
+        "results": [
+          "Store launched from scratch",
+          "Improved product funnel",
+          "Higher engagement"
+        ],
+        "url": "https://www.zammy.in"
+      },
+
+      {
+        "id": "cafe-kizie",
+        "title": "Cafe Kizie – Web & Marketing",
+        "client": "Cafe Kizie",
+        "image": "/PortfolioPage/cafe-kizie.png",
+        "categories": [
+          "Web Development",
+          "SEO",
+          "Social Media Marketing",
+          "Social Media",
+          "Web Design"
+        ],
+        "description": "Built PHP website, implemented SEO, managed social media marketing, and handled social media.",
+        "results": [
+          "Custom website launched",
+          "Quality leads from social media",
+          "Higher organic reach"
+        ],
+        "url": "https://www.cafekizie.com"
+      },
+
+      {
+        "id": "terravae",
+        "title": "Terravae – Shopify & Marketing",
+        "client": "Terravae",
+        "image": "/PortfolioPage/terravae.png",
+        "categories": [
+          "E-commerce",
+          "Shopify",
+          "UGC Content",
+          "Social Media",
+          "Social Media Marketing"
+        ],
+        "description": "Built Shopify store, integrated UGC, and executed social media campaigns.",
+        "results": [
+          "Store launched",
+          "Higher engagement",
+          "Improved conversions"
+        ],
+        "url": "https://www.terravae.in"
+      },
+
+      {
+        "id": "scan-center",
+        "title": "Scan Center Near Me – Optimization",
+        "client": "Scan Center Near Me",
+        "image": "/PortfolioPage/scan-center.png",
+        "categories": [
+          "Web Development",
+          "SEO",
+          "Dynamic Features",
+          "UX"
+        ],
+        "description": "Added dynamic location-based results and improved performance and SEO.",
+        "results": [
+          "Dynamic location listings",
+          "Improved site speed",
+          "Better UX flow"
+        ],
+        "url": "https://www.scancenternearme.com"
+      },
+
+      {
+        "id": "hey-chatoraas",
+        "title": "Hey Chatoraas – Restaurant Website",
+        "client": "Hey Chatoraas",
+        "image": "/PortfolioPage/hey-chatoraas.png",
+        "categories": [
+          "Web Development",
+          "SEO",
+          "Social Media Marketing",
+          "Digital Marketing",
+          "Web Design"
+        ],
+        "description": "Built restaurant website, implemented local SEO, and ran targeted ad campaigns.",
+        "results": [
+          "Website launched",
+          "Top local rankings",
+          "More online orders"
+        ],
+        "url": "https://www.heychatoraas.com"
+      },
+
+      {
+        "id": "cb-crown-banquet",
+        "title": "CB Crown Banquet – Lead Generation",
+        "client": "CB Crown Banquet",
+        "image": "/PortfolioPage/cb-crown-banquet.png",
+        "categories": [
+          "Web Development",
+          "SEO",
+          "Digital Marketing",
+          "Social Media Marketing",
+          "Lead Generation"
+        ],
+        "description": "Built conversion-focused website, executed SEO, and ran lead generation campaigns.",
+        "results": [
+          "Lead-focused website",
+          "Top local rankings",
+          "Increase in qualified leads"
+        ],
+        "url": "https://www.crownbanquetnoida.com"
+      },
+
+      {
+        "id": "ever-fit-yoga",
+        "title": "Ever Fit Yoga – Web Design & Maintenance",
+        "client": "Ever Fit Yoga",
+        "image": "/PortfolioPage/ever-fit-yoga.png",
+        "categories": [
+          "Web Development",
+          "Web Design",
+          "SEO",
+          "Site Maintenance"
+        ],
+        "description": "Designed calm yoga website, handled maintenance, and implemented local SEO.",
+        "results": [
+          "Custom yoga website",
+          "Reliable site performance",
+          "Improved local reach"
+        ],
+        "url": "https://www.everfityoga.com"
+      },
+
+      {
+        "id": "adya-bites",
+        "title": "Adya Bites – Social Media Optimization",
+        "client": "Adya Bites",
+        "image": "/PortfolioPage/adya-bites.png",
+        "categories": [
+          "Social Media Marketing",
+          "Digital Marketing"
+        ],
+        "description": "Managed social media with advanced targeting and performance optimization.",
+        "results": [
+          "Higher ROAS",
+          "Improved engagement",
+          "Stronger visibility"
+        ],
+        "url": ""
+      },
+
+      {
+        "id": "cctv-pixels",
+        "title": "CCTV Pixels – WooCommerce Store",
+        "client": "CCTV Pixels",
+        "image": "/PortfolioPage/cctv-pixels.png",
+        "categories": [
+          "E-commerce",
+          "WooCommerce",
+          "Web Development"
+        ],
+        "description": "Built WooCommerce store with custom features and optimized UX.",
+        "results": [
+          "Store launched",
+          "Dynamic product features",
+          "Improved shopping flow"
+        ],
+        "url": "https://www.cctvpixels.com"
+      },
+
+      {
+        "id": "code-with-tls",
+        "title": "Code With TLS – LMS & Marketing",
+        "client": "Code With TLS",
+        "image": "/PortfolioPage/code-with-tls.png",
+        "categories": [
+          "Web Development",
+          "LMS",
+          "SEO",
+          "Digital Marketing",
+          "CMS"
+        ],
+        "description": "Built LMS with dashboards, optimized landing pages, and managed paid campaigns.",
+        "results": [
+          "Fully functional LMS",
+          "High-conversion landing pages",
+          "Increased enrollments"
+        ],
+        "url": "https://www.codewithtls.com"
+      },
+
+      {
+        "id": "japanese-language-school",
+        "title": "The Japanese Language School – LMS & SEO",
+        "client": "The Japanese Language School",
+        "image": "/PortfolioPage/japanese-language-school.png",
+        "categories": [
+          "Web Development",
+          "LMS",
+          "Attendance",
+          "SEO",
+          "Digital Marketing",
+          "CMS"
+        ],
+        "description": "Built multilingual LMS platform, attendance tracking, SEO, and digital marketing campaigns.",
+        "results": [
+          "Integrated attendance system",
+          "Higher organic rankings",
+          "Boosted enrollments"
+        ],
+        "url": "https://www.teamlanguages.com"
+      },
+
+      {
+        "id": "beer-garden",
+        "title": "The Beer Garden – Website & Digital Marketing",
+        "client": "The Beer Garden",
+        "image": "/PortfolioPage/beer-garden.png",
+        "categories": [
+          "Web Design",
+          "Web Development",
+          "SEO",
+          "Digital Marketing",
+          "Social Media"
+        ],
+        "description": "Designed website, improved local SEO, ran digital marketing campaigns, and managed social media.",
+        "results": [
+          "65% traffic growth in 3 months",
+          "Improved local rankings",
+          "40% more reservations"
+        ],
+        "url": "https://www.thebeergardenindia.com"
+      },
+
+      {
+        "id": "galaxy-certifications",
+        "title": "Galaxy Certifications – Corporate Website",
+        "client": "Galaxy Certifications",
+        "image": "/PortfolioPage/galaxy-certifications.png",
+        "categories": [
+          "Web Development",
+          "Web Design",
+          "SEO"
+        ],
+        "description": "Built a PHP website with dynamic certification listings, admin management, and GMB setup.",
+        "results": [
+          "Centralized certification management",
+          "Improved local visibility",
+          "Better client engagement"
+        ],
+        "url": ""
+      },
+
+      {
+        "id": "school-of-foreign-languages",
+        "title": "School of Foreign Languages – Digital Platform & Marketing",
+        "client": "The School of Foreign Languages",
+        "image": "/PortfolioPage/school-of-foreign-languages.png",
+        "categories": [
+          "Web Development",
+          "SEO",
+          "Social Media"
+        ],
+        "description": "Built website, optimized Google Business Profile, AI-powered SEO and managed social media channels.",
+        "results": [
+          "Website launched successfully",
+          "Improved local visibility and inquiries",
+          "Better engagement and lead flow"
+        ],
+        "url": "https://www.teamforeignlanguages.com"
+      }
+    ]
+  }
+}

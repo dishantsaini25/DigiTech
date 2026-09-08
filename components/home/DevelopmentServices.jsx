@@ -1,6 +1,9 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+
 import servicesData from '@/data/services.json';
 import SectionHeading from '@/components/ui/SectionHeading';
 import Icon from '@/components/ui/Icon';
@@ -12,7 +15,8 @@ export default function DevelopmentServices() {
 
   if (!ds?.enabled) return null;
 
-  const activeData = ds.tabs.find((t) => t.id === activeTab) ?? ds.tabs[0];
+  const activeData =
+    ds.tabs.find((tab) => tab.id === activeTab) ?? ds.tabs[0];
 
   return (
     <section className="section-py section-bg-services">
@@ -26,17 +30,25 @@ export default function DevelopmentServices() {
             headingAccent={ds.headingAccent}
             subheading={ds.subheading}
           />
-          {/* Tab pills — desktop inline with heading */}
+
+          {/* Desktop Tabs */}
           <div className="hidden lg:flex items-center gap-2 shrink-0">
             {ds.tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
-                  activeTab === tab.id
-                    ? 'bg-[var(--primary)] text-[var(--text-white)] shadow-sm'
-                    : 'bg-[var(--surface)] text-[var(--text-secondary)] border border-[var(--border-light)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
-                }`}
+                className={`
+                  flex items-center gap-2
+                  px-4 py-2.5
+                  rounded-xl
+                  text-sm font-semibold
+                  transition-all duration-200
+                  ${
+                    activeTab === tab.id
+                      ? 'bg-[var(--primary)] text-[var(--text-white)] shadow-sm'
+                      : 'bg-[var(--surface)] text-[var(--text-secondary)] border border-[var(--border-light)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
+                  }
+                `}
               >
                 <Icon name={tab.icon} size={15} />
                 {tab.name}
@@ -45,17 +57,26 @@ export default function DevelopmentServices() {
           </div>
         </div>
 
-        {/* Tab pills — mobile (scrollable row) */}
+        {/* Mobile Tabs */}
         <div className="flex lg:hidden items-center gap-2 overflow-x-auto pb-3 mb-8 -mx-1 px-1 scrollbar-none">
           {ds.tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold whitespace-nowrap transition-all duration-200 shrink-0 ${
-                activeTab === tab.id
-                  ? 'bg-[var(--primary)] text-[var(--text-white)] shadow-sm'
-                  : 'bg-[var(--surface)] text-[var(--text-secondary)] border border-[var(--border-light)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
-              }`}
+              className={`
+                flex items-center gap-2
+                px-4 py-2.5
+                rounded-xl
+                text-sm font-semibold
+                whitespace-nowrap
+                shrink-0
+                transition-all duration-200
+                ${
+                  activeTab === tab.id
+                    ? 'bg-[var(--primary)] text-[var(--text-white)] shadow-sm'
+                    : 'bg-[var(--surface)] text-[var(--text-secondary)] border border-[var(--border-light)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
+                }
+              `}
             >
               <Icon name={tab.icon} size={15} />
               {tab.name}
@@ -63,30 +84,84 @@ export default function DevelopmentServices() {
           ))}
         </div>
 
-        {/* Service cards grid */}
+        {/* Service Cards */}
         {activeData && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {activeData.items.map((item, i) => (
-              <div
-                key={i}
-                className="group bg-[var(--surface)] border border-[var(--border-light)] rounded-2xl p-6 hover:border-[var(--primary)] hover:shadow-md transition-all duration-200 card-lift"
+            {activeData.items.map((item) => (
+              <article
+                key={item.id}
+                className="
+                  group
+                  overflow-hidden
+                  rounded-2xl
+                  bg-[var(--surface)]
+                  border border-[var(--border-light)]
+                  transition-all duration-300
+                  hover:border-[var(--primary)]
+                  hover:shadow-lg
+                  card-lift
+                "
               >
-                {/* Icon circle */}
-                <div className="w-11 h-11 rounded-xl bg-[var(--primary-light)] flex items-center justify-center mb-5 group-hover:bg-[var(--primary)] transition-colors duration-200">
-                  <Icon
-                    name={item.icon}
-                    size={18}
-                    className="text-[var(--primary)] group-hover:text-white transition-colors duration-200"
+                {/* Image */}
+                <div className="relative aspect-[16/9] overflow-hidden">
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    fill
+                    className="
+                      object-cover
+                      transition-transform duration-500
+                      group-hover:scale-105
+                    "
                   />
                 </div>
 
-                <h3 className="text-[var(--text-primary)] font-bold text-[15px] mb-2 group-hover:text-[var(--primary)] transition-colors">
-                  {item.name}
-                </h3>
-                <p className="text-[var(--text-muted)] text-sm leading-relaxed">
-                  {item.description}
-                </p>
-              </div>
+                {/* Content */}
+                <div className="p-6">
+                  <h3
+                    className="
+                      text-[var(--text-primary)]
+                      font-bold
+                      text-xl
+                      mb-3
+                      transition-colors
+                      group-hover:text-[var(--primary)]
+                    "
+                  >
+                    {item.name}
+                  </h3>
+
+                  <p
+                    className="
+                      text-[var(--text-muted)]
+                      text-sm
+                      leading-relaxed
+                      min-h-[68px]
+                    "
+                  >
+                    {item.description}
+                  </p>
+
+                  {/* Know More */}
+                  <Link
+                    href={`/services/${item.id}`}
+                    className="
+                      inline-flex
+                      items-center
+                      gap-2
+                      mt-5
+                      text-sm
+                      font-semibold
+                      text-[var(--primary)]
+                      transition-all duration-200
+                      group-hover:gap-3
+                    "
+                  >
+                    Know More
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                </div>
+              </article>
             ))}
           </div>
         )}

@@ -12,8 +12,7 @@
         "company": "Cafe Kizie",
         "image": "/images/testimonials/sachin.jpg",
         "rating": 5,
-        "review": "DIGITECH did an outstanding job building our website. They captured the whole vibe of our cafe perfectly — modern, warm and welcoming. The team was professional, responsive and delivered exactly what we envisioned.",
-        "enabled": true
+        "review": "DIGITECH did an outstanding job building our website. They captured the whole vibe of our cafe perfectly — modern, warm and welcoming. The team was professional, responsive and delivered exactly what we envisioned."
       },
       {
         "name": "Chetan Gupta",
@@ -21,8 +20,7 @@
         "company": "Stroll & Swing",
         "image": "/images/testimonials/chetan.jpg",
         "rating": 5,
-        "review": "Working with DIGITECH was seamless from start to finish. They built our Shopify store from scratch — handling design, product setup, payment integration and SEO. Everything was delivered on time and to the highest standard.",
-        "enabled": true
+        "review": "Working with DIGITECH was seamless from start to finish. They built our Shopify store from scratch — handling design, product setup, payment integration and SEO. Everything was delivered on time and to the highest standard."
       },
       {
         "name": "Kaushal Singh",
@@ -30,8 +28,7 @@
         "company": "Kaumo Solar",
         "image": "/images/testimonials/kaushal.jpg",
         "rating": 5,
-        "review": "DIGITECH completely transformed our digital presence. Their data-driven approach improved our Google rankings significantly and the quality leads started coming in within weeks. Truly a reliable growth partner.",
-        "enabled": true
+        "review": "DIGITECH completely transformed our digital presence. Their data-driven approach improved our Google rankings significantly and the quality leads started coming in within weeks. Truly a reliable growth partner."
       },
       {
         "name": "Akanksha Agarwal",
@@ -39,8 +36,7 @@
         "company": "Legend Creations",
         "image": "/images/testimonials/akanksha.jpg",
         "rating": 5,
-        "review": "The DIGITECH team built our e-commerce store with incredible attention to detail. Product pages, checkout flow, mobile responsiveness — everything works beautifully. Best agency I've worked with.",
-        "enabled": true
+        "review": "The DIGITECH team built our e-commerce store with incredible attention to detail. Product pages, checkout flow, mobile responsiveness — everything works beautifully. Best agency I've worked with."
       },
       {
         "name": "Vansh Sharma",
@@ -48,8 +44,7 @@
         "company": "CCTV Pixels",
         "image": "/images/testimonials/vansh.jpg",
         "rating": 5,
-        "review": "They took the time to truly understand our vision for a modern security brand, then delivered a clean, professional website that perfectly represents who we are. The whole process was smooth and organised.",
-        "enabled": true
+        "review": "They took the time to truly understand our vision for a modern security brand, then delivered a clean, professional website that perfectly represents who we are. The whole process was smooth and organised."
       },
       {
         "name": "Arun Kumar",
@@ -57,8 +52,7 @@
         "company": "CB Crown Banquet",
         "image": "/images/testimonials/arun.jpg",
         "rating": 5,
-        "review": "DIGITECH helped our banquet business reach more customers through a stunning website and targeted social campaigns. Bookings have increased noticeably since launch. Highly recommend their team.",
-        "enabled": true
+        "review": "DIGITECH helped our banquet business reach more customers through a stunning website and targeted social campaigns. Bookings have increased noticeably since launch. Highly recommend their team."
       },
       {
         "name": "Sohan Sharma",
@@ -66,8 +60,7 @@
         "company": "Kilo Lelo Biryani",
         "image": "/images/testimonials/sohan.jpg",
         "rating": 5,
-        "review": "Their work boosted our presence on Zomato and Swiggy, and the new website drives walk-in customers too. The team is friendly, skilled and genuinely cares about results. Highly recommended.",
-        "enabled": true
+        "review": "Their work boosted our presence on Zomato and Swiggy, and the new website drives walk-in customers too. The team is friendly, skilled and genuinely cares about results. Highly recommended."
       },
       {
         "name": "Prachi Shah",
@@ -75,8 +68,7 @@
         "company": "Galaxy Certifications",
         "image": "/images/testimonials/prachi.jpg",
         "rating": 5,
-        "review": "DIGITECH handled our digital campaigns with real precision. ROI has been outstanding and we've seen consistent business growth every month since partnering with them.",
-        "enabled": true
+        "review": "DIGITECH handled our digital campaigns with real precision. ROI has been outstanding and we've seen consistent business growth every month since partnering with them."
       },
       {
         "name": "Rohit Malhotra",
@@ -84,8 +76,7 @@
         "company": "True Gems Kart",
         "image": "/images/testimonials/rohit.jpg",
         "rating": 5,
-        "review": "From website traffic to social media engagement, every metric improved after working with DIGITECH. They are one of the best digital teams I have encountered — strategic, creative and genuinely results-oriented.",
-        "enabled": true
+        "review": "From website traffic to social media engagement, every metric improved after working with DIGITECH. They are one of the best digital teams I have encountered — strategic, creative and genuinely results-oriented."
       }
     ]
   }

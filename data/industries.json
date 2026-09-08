@@ -6,28 +6,113 @@
     "headingAccent": "We Serve",
     "subheading": "We deliver tailored digital solutions across a wide range of industries — helping businesses in every sector grow and compete online.",
     "limit": 12,
+
     "items": [
-      { "name": "Retail",            "icon": "shopping-bag",   "image": "/images/industries/retail.jpg",          "enabled": true },
-      { "name": "Real Estate",       "icon": "home",           "image": "/images/industries/real-estate.jpg",     "enabled": true },
-      { "name": "Travel & Tourism",  "icon": "map-pin",        "image": "/images/industries/travel.jpg",          "enabled": true },
-      { "name": "Healthcare",        "icon": "heart",          "image": "/images/industries/healthcare.jpg",      "enabled": true },
-      { "name": "Education",         "icon": "book-open",      "image": "/images/industries/education.jpg",       "enabled": true },
-      { "name": "E-Commerce",        "icon": "shopping-cart",  "image": "/images/industries/ecommerce.jpg",       "enabled": true },
-      { "name": "Startups",          "icon": "zap",            "image": "/images/industries/startups.jpg",        "enabled": true },
-      { "name": "Media",             "icon": "tv",             "image": "/images/industries/media.jpg",           "enabled": true },
-      { "name": "Govt. & Public",    "icon": "landmark",       "image": "/images/industries/government.jpg",      "enabled": true },
-      { "name": "Nonprofits & NGOs", "icon": "users",          "image": "/images/industries/nonprofit.jpg",       "enabled": true },
-      { "name": "Logistics",         "icon": "truck",          "image": "/images/industries/logistics.jpg",       "enabled": true },
-      { "name": "Manufacturing",     "icon": "settings",       "image": "/images/industries/manufacturing.jpg",   "enabled": true },
-      { "name": "Finance",           "icon": "trending-up",    "image": "/images/industries/finance.jpg",         "enabled": true },
-      { "name": "On-Demand",         "icon": "clock",          "image": "/images/industries/on-demand.jpg",       "enabled": true },
-      { "name": "Automotive",        "icon": "truck",          "image": "/images/industries/automotive.jpg",      "enabled": true },
-      { "name": "Gaming",            "icon": "cpu",            "image": "/images/industries/gaming.jpg",          "enabled": true },
-      { "name": "Food & Beverages",  "icon": "coffee",         "image": "/images/industries/food.jpg",            "enabled": true },
-      { "name": "Legal Services",    "icon": "file-text",      "image": "/images/industries/legal.jpg",           "enabled": true },
-      { "name": "Sports",            "icon": "activity",       "image": "/images/industries/sports.jpg",          "enabled": true },
-      { "name": "Fitness",           "icon": "heart",          "image": "/images/industries/fitness.jpg",         "enabled": true },
-      { "name": "Rentals",           "icon": "key",            "image": "/images/industries/rentals.jpg",         "enabled": true }
+      {
+        "name": "Retail",
+        "icon": "shopping-bag",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fretail.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Real Estate",
+        "icon": "home",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Freal-estate.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Travel & Tourism",
+        "icon": "map-pin",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Ftravel-tourism.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Healthcare",
+        "icon": "heart",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fhealthcare.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Education",
+        "icon": "book-open",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Feducation.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "E-Commerce",
+        "icon": "shopping-cart",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fe-commerce.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Startups",
+        "icon": "zap",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fstartups.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Media",
+        "icon": "tv",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fmedia.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Govt. & Public",
+        "icon": "landmark",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fgovernment-public.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Nonprofits & NGOs",
+        "icon": "users",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fnonprofits-ngos.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Logistics",
+        "icon": "truck",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Flogistics.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Manufacturing",
+        "icon": "settings",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fmanufacturing.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Finance",
+        "icon": "trending-up",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Ffinance.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "On-Demand",
+        "icon": "clock",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fon-demand.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Automotive",
+        "icon": "truck",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fautomotive.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Gaming",
+        "icon": "cpu",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fgaming.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Food & Beverages",
+        "icon": "coffee",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Ffood-beverages.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Legal Services",
+        "icon": "file-text",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Flegal-services.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Sports",
+        "icon": "activity",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Fsports.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Fitness",
+        "icon": "heart",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Ffitness.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      },
+      {
+        "name": "Rentals",
+        "icon": "key",
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Findustries%2Frentals.png&w=96&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
+      }
     ]
   }
 }

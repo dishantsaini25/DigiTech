@@ -1,0 +1,72 @@
+{
+  "contact": {
+    "enabled": true,
+
+    "meta": {
+      "title": "Contact Us | DIGITECH",
+      "description": "Get in touch with DIGITECH to discuss your next digital project."
+    },
+
+    "hero": {
+      "enabled": true,
+      "badge": "Get in Touch",
+      "heading": "Let's Build Something",
+      "headingAccent": "Great Together",
+      "description": "Have a project in mind? Let's talk about how we can turn your idea into a powerful digital solution."
+    },
+
+    "intro": {
+      "enabled": true,
+      "badge": "Reach Out",
+      "heading": "We're Here to",
+      "headingAccent": "Help You Grow",
+      "description": "Whether you have a project ready to go or simply want to explore what's possible, our team is ready to help."
+    },
+
+    "contactCards": [
+      {
+        "type": "phone",
+        "label": "Call Us"
+      },
+      {
+        "type": "email",
+        "label": "Email Us"
+      },
+      {
+        "type": "location",
+        "label": "Visit Us"
+      },
+      {
+        "type": "hours",
+        "label": "Business Hours",
+        "value": "Mon – Sat, 9:00 AM – 7:00 PM"
+      }
+    ],
+
+    "whyContact": {
+      "enabled": true,
+      "heading": "Why Work With Us?",
+      "items": [
+        "Free initial consultation",
+        "Clear and transparent communication",
+        "Solutions tailored to your business",
+        "Dedicated support throughout the project"
+      ]
+    },
+
+    "form": {
+      "heading": "Send Us a Message",
+      "description": "Fill in the details below and we'll get back to you shortly.",
+      "buttonText": "Send Message"
+    },
+
+"map": {
+  "enabled": true,
+  "heading": "Find Us",
+  "description": "Serving clients across India and worldwide",
+  "embedUrl": "https://www.google.com/maps?q=Delhi+NCR+India&output=embed",
+  "buttonText": "Open in Google Maps",
+  "url": "https://www.google.com/maps/search/Delhi+NCR+India"
+}
+  }
+}

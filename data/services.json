@@ -12,34 +12,94 @@
         "icon": "code",
         "items": [
           {
+            "id": "frontend-development",
             "name": "Frontend Development",
-            "description": "Pixel-perfect, performant UIs built with React, Next.js and modern CSS.",
-            "icon": "monitor"
+            "image": "/ServicesPage/01_frontend_development.png",
+            "description": "Pixel-perfect, performant interfaces built with React, Next.js and modern CSS.",
+            "details": "We build fast, responsive and conversion-focused frontend experiences using modern technologies and clean component-based architecture.",
+            "features": [
+              "React & Next.js development",
+              "Responsive UI development",
+              "Modern CSS and Tailwind CSS",
+              "Performance optimization",
+              "Cross-browser compatibility",
+              "SEO-friendly structure"
+            ]
           },
           {
+            "id": "full-stack-development",
             "name": "Full-Stack Applications",
-            "description": "End-to-end web apps with robust APIs, auth flows and database integrations.",
-            "icon": "layers"
+            "image": "/ServicesPage/02_full_stack_applications.png",
+            "description": "End-to-end web applications with robust APIs, authentication and database integrations.",
+            "details": "Complete full-stack applications designed with scalable frontend, backend APIs, authentication and database architecture.",
+            "features": [
+              "React / Next.js frontend",
+              "Node.js & Express backend",
+              "MongoDB database integration",
+              "Authentication systems",
+              "REST API development",
+              "Deployment support"
+            ]
           },
           {
+            "id": "cms-integration",
             "name": "CMS Integration",
-            "description": "Headless CMS setups with Sanity, Contentful or WordPress for easy content management.",
-            "icon": "layout"
+            "image": "/ServicesPage/03_cms_integration.png",
+            "description": "Flexible CMS solutions that make managing website content simple and efficient.",
+            "details": "We integrate modern CMS platforms so your team can easily manage website content without depending on developers.",
+            "features": [
+              "WordPress integration",
+              "Headless CMS",
+              "Contentful integration",
+              "Sanity integration",
+              "Custom content structures",
+              "Easy content management"
+            ]
           },
           {
+            "id": "landing-pages",
             "name": "Landing Pages",
-            "description": "High-converting, fast-loading landing pages optimised for SEO and performance.",
-            "icon": "zap"
+            "image": "/ServicesPage/04_landing_pages.png",
+            "description": "High-converting, fast-loading landing pages optimized for SEO and performance.",
+            "details": "Conversion-focused landing pages designed to communicate your value proposition clearly and generate more leads.",
+            "features": [
+              "Modern UI design",
+              "Responsive layouts",
+              "SEO optimization",
+              "Fast loading performance",
+              "Conversion-focused sections",
+              "Analytics integration"
+            ]
           },
           {
+            "id": "progressive-web-apps",
             "name": "Progressive Web Apps",
-            "description": "App-like experiences that work offline and load instantly on any device.",
-            "icon": "globe"
+            "image": "/ServicesPage/05_progressive_web_apps.png",
+            "description": "App-like web experiences that load quickly and work seamlessly across devices.",
+            "details": "Progressive web applications that combine the accessibility of websites with the experience of native applications.",
+            "features": [
+              "Offline functionality",
+              "Fast loading",
+              "Responsive experience",
+              "Installable web apps",
+              "Push notifications",
+              "Modern PWA architecture"
+            ]
           },
           {
+            "id": "website-redesign",
             "name": "Website Redesign",
-            "description": "Modernise your existing site with a fresh, conversion-focused design.",
-            "icon": "refresh-cw"
+            "image": "/ServicesPage/06_website_redesign.png",
+            "description": "Modernize your existing website with a fresh, user-focused and conversion-driven design.",
+            "details": "We transform outdated websites into modern digital experiences with improved usability, performance and visual appeal.",
+            "features": [
+              "UI/UX modernization",
+              "Responsive redesign",
+              "Performance improvement",
+              "SEO preservation",
+              "Conversion optimization",
+              "Modern technology migration"
+            ]
           }
         ]
       },
@@ -49,34 +109,94 @@
         "icon": "smartphone",
         "items": [
           {
+            "id": "ios-development",
             "name": "iOS Development",
-            "description": "Native Swift applications for iPhone and iPad with App Store deployment.",
-            "icon": "smartphone"
+            "image": "/ServicesPage/07_ios_development.png",
+            "description": "Native iOS applications designed for smooth performance and excellent user experience.",
+            "details": "We develop reliable iOS applications with intuitive interfaces and optimized performance.",
+            "features": [
+              "iOS application development",
+              "Modern UI",
+              "API integration",
+              "Push notifications",
+              "App Store deployment",
+              "Performance optimization"
+            ]
           },
           {
+            "id": "android-development",
             "name": "Android Development",
-            "description": "Native Kotlin apps for the Google Play ecosystem with full device coverage.",
-            "icon": "smartphone"
+            "image": "/ServicesPage/08_android_development.png",
+            "description": "Scalable Android applications built for performance across modern devices.",
+            "details": "Custom Android applications designed to provide consistent performance across different devices and screen sizes.",
+            "features": [
+              "Android app development",
+              "API integration",
+              "Authentication",
+              "Push notifications",
+              "Play Store deployment",
+              "Performance optimization"
+            ]
           },
           {
+            "id": "react-native",
             "name": "React Native",
-            "description": "Cross-platform mobile apps sharing a single codebase for iOS and Android.",
-            "icon": "zap"
+            "image": "/ServicesPage/09_react_native.png",
+            "description": "Cross-platform mobile applications using a shared codebase for iOS and Android.",
+            "details": "Build and maintain mobile applications for multiple platforms using a scalable React Native architecture.",
+            "features": [
+              "Cross-platform development",
+              "Reusable components",
+              "API integration",
+              "Native modules",
+              "Push notifications",
+              "App deployment"
+            ]
           },
           {
+            "id": "flutter-development",
             "name": "Flutter Development",
-            "description": "Beautiful, natively compiled apps for mobile, web and desktop from one codebase.",
-            "icon": "layers"
+            "image": "/ServicesPage/10_flutter_development.png",
+            "description": "Beautiful cross-platform applications from a single maintainable codebase.",
+            "details": "Flutter applications designed for consistent experiences across mobile, web and desktop platforms.",
+            "features": [
+              "Flutter development",
+              "Cross-platform UI",
+              "API integration",
+              "Custom animations",
+              "Responsive layouts",
+              "Application deployment"
+            ]
           },
           {
+            "id": "startup-mvp",
             "name": "Startup MVP",
-            "description": "Lean, rapid-iteration MVPs that let you validate ideas and attract investment fast.",
-            "icon": "trending-up"
+            "image": "/ServicesPage/11_startup_mvp.png",
+            "description": "Lean and scalable MVP development to validate ideas and launch products faster.",
+            "details": "We help startups turn ideas into functional MVPs with the right features, architecture and development roadmap.",
+            "features": [
+              "MVP planning",
+              "UI/UX development",
+              "Rapid development",
+              "Backend APIs",
+              "Database integration",
+              "Deployment"
+            ]
           },
           {
+            "id": "app-maintenance",
             "name": "App Maintenance",
-            "description": "Ongoing performance monitoring, OS updates and feature additions.",
-            "icon": "settings"
+            "image": "/ServicesPage/12_app_maintenance.png",
+            "description": "Ongoing maintenance, performance monitoring, updates and feature improvements.",
+            "details": "Keep your applications secure, updated and reliable with continuous maintenance and improvement.",
+            "features": [
+              "Bug fixing",
+              "Performance monitoring",
+              "OS updates",
+              "Security updates",
+              "Feature additions",
+              "Technical support"
+            ]
           }
         ]
       },
@@ -86,34 +206,94 @@
         "icon": "shopping-cart",
         "items": [
           {
+            "id": "shopify-development",
             "name": "Shopify Development",
-            "description": "Custom Shopify themes, apps and store setups built for high conversion.",
-            "icon": "shopping-cart"
+            "image": "/ServicesPage/13_shopify_development.png",
+            "description": "Custom Shopify stores built for speed, usability and higher conversions.",
+            "details": "We create customized Shopify stores with optimized user experiences and scalable e-commerce functionality.",
+            "features": [
+              "Custom Shopify themes",
+              "Shopify customization",
+              "Payment integration",
+              "Third-party integrations",
+              "SEO optimization",
+              "Store performance optimization"
+            ]
           },
           {
+            "id": "woocommerce-stores",
             "name": "WooCommerce Stores",
-            "description": "Flexible WordPress-powered stores with custom payment and shipping flows.",
-            "icon": "package"
+            "image": "/ServicesPage/14_woocommerce_stores.png",
+            "description": "Flexible WordPress-powered online stores with custom shopping experiences.",
+            "details": "Powerful WooCommerce stores designed around your products, customers and business requirements.",
+            "features": [
+              "WooCommerce setup",
+              "Custom store design",
+              "Payment gateways",
+              "Shipping integration",
+              "Product management",
+              "Performance optimization"
+            ]
           },
           {
+            "id": "custom-ecommerce",
             "name": "Custom E-Commerce",
+            "image": "/ServicesPage/15_custom_ecommerce.png",
             "description": "Bespoke e-commerce platforms tailored to complex product and order workflows.",
-            "icon": "database"
+            "details": "Custom-built e-commerce platforms for businesses that need functionality beyond traditional store platforms.",
+            "features": [
+              "Custom storefront",
+              "Product management",
+              "Order management",
+              "Payment integration",
+              "Customer accounts",
+              "Admin dashboards"
+            ]
           },
           {
+            "id": "payment-integration",
             "name": "Payment Integration",
-            "description": "Seamless integration of Razorpay, Stripe, PayPal and local payment gateways.",
-            "icon": "credit-card"
+            "image": "/ServicesPage/16_payment_integration.png",
+            "description": "Secure payment gateway integrations for smooth and reliable online transactions.",
+            "details": "Integrate popular payment gateways into your website or application with reliable transaction flows.",
+            "features": [
+              "Razorpay integration",
+              "Stripe integration",
+              "PayPal integration",
+              "Payment webhooks",
+              "Transaction handling",
+              "Payment status tracking"
+            ]
           },
           {
+            "id": "marketplace-solutions",
             "name": "Marketplace Solutions",
-            "description": "Multi-vendor marketplaces with seller dashboards and commission management.",
-            "icon": "grid"
+            "image": "/ServicesPage/17_marketplace_solutions.png",
+            "description": "Multi-vendor marketplaces with seller dashboards and scalable order management.",
+            "details": "Build powerful marketplace platforms that connect vendors and customers through a centralized system.",
+            "features": [
+              "Multi-vendor architecture",
+              "Seller dashboards",
+              "Commission management",
+              "Order management",
+              "Vendor management",
+              "Payment integration"
+            ]
           },
           {
+            "id": "store-migration",
             "name": "Store Migration",
-            "description": "Zero-downtime migration to modern platforms without losing SEO or data.",
-            "icon": "arrow-right-circle"
+            "image": "/ServicesPage/18_store_migration.png",
+            "description": "Smooth migration to modern e-commerce platforms while preserving important data and SEO.",
+            "details": "Move your existing online store to a better platform with minimal disruption and careful data migration.",
+            "features": [
+              "Platform migration",
+              "Product migration",
+              "Customer migration",
+              "Order migration",
+              "SEO preservation",
+              "Testing and verification"
+            ]
           }
         ]
       },
@@ -123,37 +303,96 @@
         "icon": "database",
         "items": [
           {
+            "id": "custom-crm-systems",
             "name": "Custom CRM Systems",
-            "description": "Tailor-made CRM solutions built around your unique business workflows.",
-            "icon": "database"
+            "image": "/ServicesPage/19_custom_crm_systems.png",
+            "description": "Tailor-made CRM solutions designed around your unique business workflows.",
+            "details": "Custom CRM platforms that centralize customer data, sales activities and business workflows.",
+            "features": [
+              "Custom CRM development",
+              "Lead management",
+              "Customer management",
+              "Role-based access",
+              "Task management",
+              "Admin dashboards"
+            ]
           },
           {
+            "id": "third-party-integrations",
             "name": "Third-Party Integrations",
-            "description": "Connect your CRM to email, calendar, ERP and marketing automation tools.",
-            "icon": "link"
+            "image": "/ServicesPage/20_third_party_integrations.png",
+            "description": "Connect your CRM with email, calendars, ERP systems and other business tools.",
+            "details": "Connect your CRM with external services to create a unified and automated business workflow.",
+            "features": [
+              "API integrations",
+              "Email integrations",
+              "Calendar integrations",
+              "ERP integrations",
+              "Marketing integrations",
+              "Webhook automation"
+            ]
           },
           {
+            "id": "sales-pipeline-automation",
             "name": "Sales Pipeline Automation",
-            "description": "Automate follow-ups, lead scoring and pipeline stages to close faster.",
-            "icon": "trending-up"
+            "image": "/ServicesPage/21_sales_pipeline_automation.png",
+            "description": "Automate leads, follow-ups and pipeline stages to help your sales team close faster.",
+            "details": "Automated sales workflows that help teams manage leads, follow-ups and customer journeys efficiently.",
+            "features": [
+              "Lead automation",
+              "Follow-up automation",
+              "Lead scoring",
+              "Pipeline management",
+              "Sales notifications",
+              "Workflow automation"
+            ]
           },
           {
+            "id": "analytics-dashboards",
             "name": "Analytics Dashboards",
-            "description": "Real-time reporting dashboards that give your team actionable insights.",
-            "icon": "bar-chart"
+            "image": "/ServicesPage/22_analytics_dashboards.png",
+            "description": "Real-time dashboards that turn business data into actionable insights.",
+            "details": "Interactive analytics dashboards that help businesses monitor important metrics and make informed decisions.",
+            "features": [
+              "Custom dashboards",
+              "Real-time statistics",
+              "Data visualization",
+              "Sales analytics",
+              "Performance reports",
+              "Exportable reports"
+            ]
           },
           {
+            "id": "crm-migration",
             "name": "CRM Migration",
-            "description": "Migrate from legacy systems to modern CRM platforms without data loss.",
-            "icon": "refresh-cw"
+            "image": "/ServicesPage/23_crm_migration.png",
+            "description": "Move from legacy CRM systems to modern platforms while protecting your business data.",
+            "details": "Carefully planned CRM migration with data mapping, validation and minimal disruption.",
+            "features": [
+              "Data migration",
+              "Data mapping",
+              "Legacy system migration",
+              "Data validation",
+              "Testing",
+              "Migration support"
+            ]
           },
           {
+            "id": "mobile-crm",
             "name": "Mobile CRM",
-            "description": "Mobile-first CRM interfaces so your team can work effectively on the go.",
-            "icon": "smartphone"
+            "image": "/ServicesPage/24_mobile_crm.png",
+            "description": "Mobile-first CRM experiences that let your team manage customers from anywhere.",
+            "details": "Responsive and mobile-friendly CRM interfaces designed for teams that work on the move.",
+            "features": [
+              "Mobile-first UI",
+              "Responsive dashboards",
+              "Customer management",
+              "Lead management",
+              "Notifications",
+              "API integration"
+            ]
           }
         ]
       }
     ]
-  }
-}
+  }}

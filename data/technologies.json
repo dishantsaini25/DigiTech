@@ -10,63 +10,51 @@
     "items": [
       {
         "name": "Adobe",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fadobe.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fadobe.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Ahrefs",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fahrefs.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fahrefs.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Capcut Pro",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fcapcut.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fcapcut.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Ms Clarity",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fclarity.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fclarity.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Photoshop",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fphotoshop.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fphotoshop.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Illustrator",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fillustrator.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fillustrator.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Chat Gpt",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fchatgpt.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fchatgpt.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Descript",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fdescript.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fdescript.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Notion AI",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fnotion.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fnotion.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "SpyFu",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fspyfu.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fspyfu.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Yoast",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fyoast.webp&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fyoast.webp&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       },
       {
         "name": "Canva Pro",
-        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fcanva.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt",
-        "enabled": true
+        "image": "https://www.promfly.com/_next/image?url=%2Fimages%2Ftools%2Fcanva.png&w=256&q=75&dpl=dpl_4Pa53vfHBnPuoAiMJubRfe3DVjZt"
       }
     ]
   }

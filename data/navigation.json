@@ -3,13 +3,13 @@
     "brand": "DIGITECH",
     "tagline": "We Build Digital Experiences....",
     "ctaButton": {
-      "label": "Start a Project",
+      "label": "Get in Touch",
       "href": "/contact"
     },
     "links": [
       { "label": "Home",       "href": "/",        "enabled": true },
       { "label": "Services",   "href": "/services","enabled": true },
-      { "label": "Our Work",   "href": "/work",    "enabled": true },
+      { "label": "Our Work",   "href": "/portfolio",    "enabled": true },
       { "label": "Our Client", "href": "/clients", "enabled": true },
       { "label": "About Us",   "href": "/about",   "enabled": true },
       { "label": "Contact Us", "href": "/contact", "enabled": true }

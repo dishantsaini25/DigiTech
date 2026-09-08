@@ -5,7 +5,6 @@ import Clients              from '@/components/home/Clients';
 import Industries           from '@/components/home/Industries';
 import Testimonials         from '@/components/home/Testimonials';
 import FAQ                  from '@/components/home/FAQ';
-import MobilitySolutions    from '@/components/home/MobilitySolutions';
 import SuccessNumbers       from '@/components/home/SuccessNumbers';
 import CTA                  from '@/components/home/CTA';
 
@@ -25,7 +24,6 @@ export default function HomePage() {
       <Industries />
       <Testimonials />
       <FAQ />
-      <MobilitySolutions />
       <SuccessNumbers />
       <CTA />
     </>

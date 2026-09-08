@@ -2,76 +2,83 @@
 
 import { useState } from 'react';
 
-/**
- * Single-open accordion list.
- *
- * Props:
- *  items  – array of { question, answer, enabled }
- *  limit  – max items to show (null = all)
- */
-export default function Accordion({ items = [], limit = null }) {
+export default function Accordion({ items = [], limit }) {
   const [openIndex, setOpenIndex] = useState(null);
+  const [expandedAnswers, setExpandedAnswers] = useState({});
 
-  const visible = (limit ? items.slice(0, limit) : items).filter((i) => i.enabled !== false);
+  const visibleItems = limit ? items.slice(0, limit) : items;
 
-  const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
+  const toggleAccordion = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  const toggleAnswer = (index) => {
+    setExpandedAnswers((prev) => ({
+      ...prev,
+      [index]: !prev[index],
+    }));
+  };
 
   return (
-    <div className="space-y-3">
-      {visible.map((item, i) => {
-        const isOpen = openIndex === i;
+    <div className="space-y-4">
+      {visibleItems.map((item, index) => {
+        const isOpen = openIndex === index;
+        const isExpanded = expandedAnswers[index];
 
         return (
           <div
-            key={i}
-            className={`rounded-2xl border transition-colors duration-200 overflow-hidden ${
-              isOpen
-                ? 'border-[var(--primary)] bg-[var(--surface)]'
-                : 'border-[var(--border-light)] bg-[var(--surface)]'
-            }`}
+            key={index}
+            className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] overflow-hidden"
           >
-            {/* Trigger */}
             <button
-              onClick={() => toggle(i)}
-              aria-expanded={isOpen}
-              className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)] focus-visible:ring-inset"
+              type="button"
+              onClick={() => toggleAccordion(index)}
+              className="w-full flex items-center justify-between gap-4 p-5 text-left"
             >
-              <span
-                className={`text-sm sm:text-[15px] font-semibold leading-snug transition-colors ${
-                  isOpen ? 'text-[var(--primary)]' : 'text-[var(--text-primary)]'
-                }`}
-              >
+              <span className="font-semibold">
                 {item.question}
               </span>
 
-              {/* +/- icon */}
-              <span
-                className={`shrink-0 w-7 h-7 rounded-full border flex items-center justify-center transition-all duration-300 ${
-                  isOpen
-                    ? 'bg-[var(--primary)] border-[var(--primary)] text-white rotate-45'
-                    : 'border-[var(--border)] text-[var(--text-muted)]'
-                }`}
-                aria-hidden="true"
-              >
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                  <path d="M6 1v10M1 6h10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/>
-                </svg>
+              <span className="shrink-0">
+                {isOpen ? '−' : '+'}
               </span>
             </button>
 
-            {/* Body — CSS grid height trick for smooth animation */}
-            <div
-              className={`accordion-body ${isOpen ? 'open' : ''}`}
-              aria-hidden={!isOpen}
-            >
-              <div className="accordion-inner">
-                <div className="px-6 pb-5 pt-1">
-                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+            {isOpen && (
+              <div className="px-5 pb-5">
+                <div className="relative">
+                  <p
+                    className={`text-[var(--text-muted)] leading-7 transition-all ${
+                      isExpanded
+                        ? ''
+                        : 'max-h-24 overflow-hidden'
+                    }`}
+                  >
                     {item.answer}
                   </p>
+
+                  {!isExpanded && item.answer.length > 180 && (
+                    <button
+                      type="button"
+                      onClick={() => toggleAnswer(index)}
+                      className="mt-2 text-sm font-semibold text-[var(--primary)] hover:underline"
+                    >
+                      ... more
+                    </button>
+                  )}
+
+                  {isExpanded && item.answer.length > 180 && (
+                    <button
+                      type="button"
+                      onClick={() => toggleAnswer(index)}
+                      className="mt-2 text-sm font-semibold text-[var(--primary)] hover:underline"
+                    >
+                      show less
+                    </button>
+                  )}
                 </div>
               </div>
-            </div>
+            )}
           </div>
         );
       })}
