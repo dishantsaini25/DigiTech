@@ -1,157 +1,821 @@
 @import "tailwindcss";
 
 /*
-  DIGITECH — Design System
-  ========================
-  Two section backgrounds alternate across the page:
-    --bg-a  linear-gradient(120deg, #dee2e7, #ffffff, #4d96db)
-    --bg-b  linear-gradient(135deg, #f7fafd 0%, #eef4fb 100%)
+  DIGITECH — Premium Light Design System
+  =======================================
 
-  To change a section's background, edit its --bg-* token below.
-  To change all buttons, edit .btn-primary at the bottom.
+  Theme:
+  Warm White + Indigo + Lavender
+
+  Primary  : #5B4BDB
+  Accent   : #7C6CF2
+  Soft     : #F0EEFF
+  Text     : #18181B
+
+  Design Direction:
+  - Clean
+  - Premium
+  - Modern
+  - Light
+  - SaaS / Digital Agency
+  - Minimal gradients
 */
 
+
+/* =====================================================
+   ROOT DESIGN TOKENS
+===================================================== */
+
 :root {
-  --bg-a: linear-gradient(120deg, #dee2e7, #ffffff, #4d96db);
-  --bg-b: linear-gradient(135deg, #f7fafd 0%, #eef4fb 100%);
 
-  --primary:        #00234b;
-  --primary-dark:   #001530;
-  --primary-light:  #daeaf9;
+  /* ---------------------------------------------------
+     SECTION GRADIENTS
+  --------------------------------------------------- */
 
-  --accent:         #0099fa;
-  --accent-light:   #e0f2fe;
+  --bg-a:
+    linear-gradient(
+      135deg,
+      #F7F6FF 0%,
+      #FFFFFF 55%,
+      #F2F0FF 100%
+    );
 
-  --gold:           #f59e0b;
-  --gold-light:     #fef3c7;
+  --bg-b:
+    linear-gradient(
+      135deg,
+      #FFFFFF 0%,
+      #FAFAFD 100%
+    );
 
-  --surface:        #ffffff;
-  --surface-soft:   #f0f6fc;
-  --surface-warm:   #f7fafd;
 
-  --background:     #f7fafd;
-  --foreground:     #0b1829;
+  /* ---------------------------------------------------
+     BRAND COLORS
+  --------------------------------------------------- */
 
-  --text-primary:   #0b1829;
-  --text-secondary: #1e3a5f;
-  --text-muted:     #5a7a99;
-  --text-white:     #ffffff;
+  --primary: #5B4BDB;
 
-  --border:         #b8d0e8;
-  --border-light:   #daeaf7;
+  --primary-dark: #4638B8;
 
-  --bg-card:        #ffffff;
-  --bg-card-alt:    #eef4fb;
+  --primary-light: #E9E6FF;
 
-  /* Section backgrounds — edit these to retheme individual sections */
-  --bg-hero:           var(--bg-a);
-  --bg-services:       var(--bg-b);
-  --bg-technologies:   var(--bg-a);
-  --bg-clients:        var(--bg-b);
-  --bg-industries:     var(--bg-a);
-  --bg-testimonials:   var(--bg-b);
-  --bg-faq:            var(--bg-a);
-  --bg-mobility:       var(--bg-b);
-  --bg-numbers:        var(--bg-a);
-  --bg-cta:           var(--bg-b);
 
-  --bg-header:         rgba(247, 250, 253, 0.92);
-  --bg-footer:         #00234b;
+  /* ---------------------------------------------------
+     ACCENT
+  --------------------------------------------------- */
+
+  --accent: #7C6CF2;
+
+  --accent-light: #F0EEFF;
+
+
+  /* ---------------------------------------------------
+     SECONDARY ACCENT
+  --------------------------------------------------- */
+
+  --gold: #C98B3C;
+
+  --gold-light: #FFF6E8;
+
+
+  /* ---------------------------------------------------
+     SURFACES
+  --------------------------------------------------- */
+
+  --surface: #FFFFFF;
+
+  --surface-soft: #F7F7FA;
+
+  --surface-warm: #FAF9FF;
+
+
+  /* ---------------------------------------------------
+     PAGE
+  --------------------------------------------------- */
+
+  --background: #FAFAFC;
+
+  --foreground: #18181B;
+
+
+  /* ---------------------------------------------------
+     TEXT
+  --------------------------------------------------- */
+
+  --text-primary: #18181B;
+
+  --text-secondary: #52525B;
+
+  --text-muted: #71717A;
+
+  --text-white: #FFFFFF;
+
+
+  /* ---------------------------------------------------
+     BORDERS
+  --------------------------------------------------- */
+
+  --border: #DDD9F2;
+
+  --border-light: #EBE9F5;
+
+
+  /* ---------------------------------------------------
+     CARDS
+  --------------------------------------------------- */
+
+  --bg-card: #FFFFFF;
+
+  --bg-card-alt: #F7F5FF;
+
+
+  /* ===================================================
+     SECTION BACKGROUNDS
+  =================================================== */
+
+  --bg-hero:
+    linear-gradient(
+      135deg,
+      #F4F2FF 0%,
+      #FFFFFF 48%,
+      #F1EEFF 100%
+    );
+
+  --bg-services:
+    linear-gradient(
+      180deg,
+      #FFFFFF 0%,
+      #FAFAFC 100%
+    );
+
+  --bg-technologies:
+    linear-gradient(
+      135deg,
+      #F8F7FF 0%,
+      #FFFFFF 100%
+    );
+
+  --bg-clients:
+    linear-gradient(
+      180deg,
+      #FFFFFF 0%,
+      #F8F8FB 100%
+    );
+
+  --bg-industries:
+    linear-gradient(
+      135deg,
+      #FAF9FF 0%,
+      #F3F1FF 100%
+    );
+
+  --bg-testimonials:
+    linear-gradient(
+      180deg,
+      #FFFFFF 0%,
+      #FAFAFC 100%
+    );
+
+  --bg-faq:
+    linear-gradient(
+      135deg,
+      #F8F7FF 0%,
+      #FFFFFF 100%
+    );
+
+  --bg-mobility:
+    linear-gradient(
+      180deg,
+      #FFFFFF 0%,
+      #F8F8FB 100%
+    );
+
+  --bg-numbers:
+    linear-gradient(
+      135deg,
+      #F4F2FF 0%,
+      #FAFAFF 100%
+    );
+
+  --bg-cta:
+    linear-gradient(
+      135deg,
+      #EEEAFE 0%,
+      #F8F7FF 55%,
+      #EAE7FF 100%
+    );
+
+
+  /* ---------------------------------------------------
+     HEADER
+  --------------------------------------------------- */
+
+  --bg-header:
+    rgba(255, 255, 255, 0.90);
+
+
+  /* ---------------------------------------------------
+     FOOTER
+  --------------------------------------------------- */
+
+  --bg-footer: #211E35;
 }
 
-*, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+
+/* =====================================================
+   GLOBAL RESET
+===================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
+
   margin: 0;
-  background: var(--background);
-  color: var(--text-primary);
-  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  background:
+    var(--background);
+
+  color:
+    var(--text-primary);
+
+  font-family:
+    'Inter',
+    'Segoe UI',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+
+  -webkit-font-smoothing:
+    antialiased;
+
+  -moz-osx-font-smoothing:
+    grayscale;
+
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text-primary);
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+
+/* =====================================================
+   HEADINGS
+===================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  color:
+    var(--text-primary);
+
+  line-height:
+    1.15;
+
+  letter-spacing:
+    -0.025em;
 }
 
-p { color: var(--text-secondary); line-height: 1.7; }
 
-::-webkit-scrollbar        { width: 5px; }
-::-webkit-scrollbar-track  { background: #eef4fb; }
-::-webkit-scrollbar-thumb  { background: var(--primary); border-radius: 4px; }
+/* =====================================================
+   PARAGRAPHS
+===================================================== */
+
+p {
+
+  color:
+    var(--text-secondary);
+
+  line-height:
+    1.7;
+}
+
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+
+  background:
+    #F4F3F8;
+}
+
+
+::-webkit-scrollbar-thumb {
+
+  background:
+    #B8B2D8;
+
+  border-radius:
+    10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+
+  background:
+    var(--primary);
+}
+
+
+/* =====================================================
+   FOCUS
+===================================================== */
 
 :focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
+
+  outline:
+    2px solid
+    var(--accent);
+
+  outline-offset:
+    3px;
 }
 
-/*
-  section-bg-* classes apply gradient backgrounds.
-  Tailwind's bg-[var()] compiles to background-color which doesn't
-  support gradients, so we use these utility classes instead.
-*/
-.section-bg-hero         { background: var(--bg-hero)         !important; }
-.section-bg-services     { background: var(--bg-services)     !important; }
-.section-bg-technologies { background: var(--bg-technologies) !important; }
-.section-bg-clients      { background: var(--bg-clients)      !important; }
-.section-bg-industries   { background: var(--bg-industries)   !important; }
-.section-bg-testimonials { background: var(--bg-testimonials) !important; }
-.section-bg-faq          { background: var(--bg-faq)          !important; }
-.section-bg-mobility     { background: var(--bg-mobility)     !important; }
-.section-bg-numbers      { background: var(--bg-numbers)      !important; }
-.section-bg-cta          { background: var(--bg-cta)          !important; }
+
+/* =====================================================
+   SECTION BACKGROUNDS
+===================================================== */
+
+.section-bg-hero {
+  background: var(--bg-hero) !important;
+}
+
+
+.section-bg-services {
+  background: var(--bg-services) !important;
+}
+
+
+.section-bg-technologies {
+  background: var(--bg-technologies) !important;
+}
+
+
+.section-bg-clients {
+  background: var(--bg-clients) !important;
+}
+
+
+.section-bg-industries {
+  background: var(--bg-industries) !important;
+}
+
+
+.section-bg-testimonials {
+  background: var(--bg-testimonials) !important;
+}
+
+
+.section-bg-faq {
+  background: var(--bg-faq) !important;
+}
+
+
+.section-bg-mobility {
+  background: var(--bg-mobility) !important;
+}
+
+
+.section-bg-numbers {
+  background: var(--bg-numbers) !important;
+}
+
+
+.section-bg-cta {
+  background: var(--bg-cta) !important;
+}
+
+
+/* =====================================================
+   MARQUEE
+===================================================== */
 
 @keyframes marquee {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+
 }
+
+
 .marquee-track {
-  animation: marquee 35s linear infinite;
-  will-change: transform;
+
+  animation:
+    marquee
+    35s
+    linear
+    infinite;
+
+  will-change:
+    transform;
 }
-.marquee-track:hover { animation-play-state: paused; }
-.marquee-paused      { animation-play-state: paused !important; }
+
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+
+.marquee-paused {
+  animation-play-state: paused !important;
+}
+
+
+/* =====================================================
+   FADE UP
+===================================================== */
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(24px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-.reveal         { opacity: 0; }
-.reveal.visible { animation: fadeUp 0.55s ease forwards; }
 
-/* CSS grid height trick for smooth accordion open/close */
+  from {
+
+    opacity: 0;
+
+    transform:
+      translateY(24px);
+  }
+
+  to {
+
+    opacity: 1;
+
+    transform:
+      translateY(0);
+  }
+}
+
+
+.reveal {
+  opacity: 0;
+}
+
+
+.reveal.visible {
+
+  animation:
+    fadeUp
+    0.55s
+    ease
+    forwards;
+}
+
+
+/* =====================================================
+   ACCORDION
+===================================================== */
+
 .accordion-body {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.32s ease;
-}
-.accordion-body.open { grid-template-rows: 1fr; }
-.accordion-inner     { overflow: hidden; }
 
-.card-lift { transition: transform 0.22s ease, box-shadow 0.22s ease; }
+  display:
+    grid;
+
+  grid-template-rows:
+    0fr;
+
+  transition:
+    grid-template-rows
+    0.32s ease;
+}
+
+
+.accordion-body.open {
+  grid-template-rows: 1fr;
+}
+
+
+.accordion-inner {
+  overflow: hidden;
+}
+
+
+/* =====================================================
+   CARD HOVER
+===================================================== */
+
+.card-lift {
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+
 .card-lift:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 28px rgba(0, 35, 75, 0.10);
+
+  transform:
+    translateY(-5px);
+
+  border-color:
+    #D4CFF2;
+
+  box-shadow:
+    0 16px 40px
+    rgba(65, 54, 130, 0.10);
 }
 
-.section-py { padding-top: 5rem; padding-bottom: 5rem; }
+
+/* =====================================================
+   SECTION SPACING
+===================================================== */
+
+.section-py {
+
+  padding-top:
+    5rem;
+
+  padding-bottom:
+    5rem;
+}
+
+
 @media (min-width: 1024px) {
-  .section-py { padding-top: 6.5rem; padding-bottom: 6.5rem; }
+
+  .section-py {
+
+    padding-top:
+      6.5rem;
+
+    padding-bottom:
+      6.5rem;
+  }
 }
 
-.divider { height: 1px; background: var(--border-light); }
+
+/* =====================================================
+   DIVIDER
+===================================================== */
+
+.divider {
+
+  height:
+    1px;
+
+  background:
+    var(--border-light);
+}
+
+
+/* =====================================================
+   PRIMARY BUTTON
+===================================================== */
 
 .btn-primary {
-  background: linear-gradient(135deg, #0099fa 0%, #00234b 100%);
-  color: #ffffff;
-  border: none;
+
+  background:
+    linear-gradient(
+      135deg,
+      #5B4BDB 0%,
+      #7C6CF2 100%
+    );
+
+  color:
+    #FFFFFF;
+
+  border:
+    none;
+
+  box-shadow:
+    0 8px 22px
+    rgba(91, 75, 219, 0.20);
+
+  transition:
+    all 0.22s ease;
 }
+
+
 .btn-primary:hover {
-  background: linear-gradient(135deg, #007dd4 0%, #001a38 100%);
-  box-shadow: 0 4px 20px rgba(0, 153, 250, 0.32);
+
+  background:
+    linear-gradient(
+      135deg,
+      #4C3DC5 0%,
+      #6958E5 100%
+    );
+
+  box-shadow:
+    0 12px 30px
+    rgba(91, 75, 219, 0.28);
+
+  transform:
+    translateY(-2px);
 }
-.btn-primary:active { transform: scale(0.98); }
+
+
+.btn-primary:active {
+
+  transform:
+    scale(0.98);
+}
+
+
+/* =====================================================
+   SECONDARY BUTTON
+===================================================== */
+
+.btn-secondary {
+
+  background:
+    #FFFFFF;
+
+  color:
+    var(--primary);
+
+  border:
+    1px solid
+    var(--border);
+
+  transition:
+    all 0.22s ease;
+}
+
+
+.btn-secondary:hover {
+
+  background:
+    var(--accent-light);
+
+  color:
+    var(--primary-dark);
+
+  border-color:
+    #CFC9F0;
+
+  transform:
+    translateY(-1px);
+}
+
+
+/* =====================================================
+   SOFT ACCENT
+===================================================== */
+
+.accent-soft {
+
+  background:
+    var(--accent-light);
+
+  color:
+    var(--primary);
+
+  border:
+    1px solid
+    #DDD8F5;
+}
+
+
+/* =====================================================
+   SOFT PRIMARY
+===================================================== */
+
+.primary-soft {
+
+  background:
+    var(--primary-light);
+
+  color:
+    var(--primary-dark);
+
+  border:
+    1px solid
+    #D9D3F5;
+}
+
+
+/* =====================================================
+   GRADIENT TEXT
+===================================================== */
+
+.text-gradient {
+
+  background:
+    linear-gradient(
+      135deg,
+      #5B4BDB 0%,
+      #9A8FF5 100%
+    );
+
+  -webkit-background-clip:
+    text;
+
+  background-clip:
+    text;
+
+  -webkit-text-fill-color:
+    transparent;
+}
+
+
+/* =====================================================
+   PURPLE GLOW
+===================================================== */
+
+.purple-glow {
+
+  box-shadow:
+
+    0 0 0 1px
+    rgba(91, 75, 219, 0.06),
+
+    0 15px 45px
+    rgba(91, 75, 219, 0.12);
+}
+
+
+/* =====================================================
+   ACCENT DOT
+===================================================== */
+
+.accent-dot {
+
+  width:
+    8px;
+
+  height:
+    8px;
+
+  border-radius:
+    50%;
+
+  background:
+    var(--accent);
+
+  box-shadow:
+    0 0 16px
+    rgba(124, 108, 242, 0.45);
+}
+
+
+/* =====================================================
+   LIGHT GLOW BACKGROUND
+===================================================== */
+
+.soft-glow {
+
+  position:
+    relative;
+}
+
+
+.soft-glow::before {
+
+  content:
+    '';
+
+  position:
+    absolute;
+
+  width:
+    420px;
+
+  height:
+    420px;
+
+  border-radius:
+    50%;
+
+  background:
+    rgba(124, 108, 242, 0.08);
+
+  filter:
+    blur(80px);
+
+  pointer-events:
+    none;
+}
+
+
+/* =====================================================
+   SELECTION
+===================================================== */
+
+::selection {
+
+  background:
+    #E5E1FF;
+
+  color:
+    #3E319B;
+}

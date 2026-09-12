@@ -13,10 +13,10 @@ export default function SvcTable({ data }) {
         )}
 
         {/* Horizontally scrollable on mobile */}
-        <div className="overflow-x-auto rounded-2xl border border-[var(--border-light)] shadow-sm">
-          <table className="w-full min-w-[600px] text-sm">
+        <div className="overflow-x-auto rounded-2xl border border-(--border-light) shadow-sm">
+          <table className="w-full min-w-150 text-sm">
             <thead>
-              <tr className="bg-[var(--primary)]">
+              <tr className="bg-(--primary)">
                 {headers.map((header, i) => (
                   <th
                     key={i}
